@@ -330,7 +330,7 @@ export default function CompanyDetail() {
                     <div className="font-medium text-blue-900 mb-2">当前估值水平</div>
                     <p className="text-sm text-blue-800">{company.analysis.valuationAnalysis.current}</p>
                   </div>
-                  {company.analysis.valuationAnalysis.comparison && (
+                  {company.analysis.valuationAnalysis.comparison && company.analysis.valuationAnalysis.comparison.length > 0 && (
                     <div className="overflow-x-auto">
                       <table className="min-w-full divide-y divide-gray-200">
                         <thead className="bg-gray-50">

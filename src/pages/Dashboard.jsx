@@ -2,8 +2,8 @@ import { useMemo, useState } from 'react'
 import companies from '../data/companies.json'
 
 export default function Dashboard() {
-  const [sortField, setSortField] = useState('total')
-  const [sortOrder, setSortOrder] = useState('desc')
+  const [sortField, setSortField] = useState('rank')
+  const [sortOrder, setSortOrder] = useState('asc')
 
   const stats = useMemo(() => {
     const analyzed = companies.filter((c) => c.status === 'analyzed')
@@ -63,6 +63,8 @@ export default function Dashboard() {
       .sort((a, b) => {
         let aVal, bVal
         switch (sortField) {
+          case 'rank':
+            aVal = a.rank; bVal = b.rank; break
           case 'moat':
             aVal = a.moatScore; bVal = b.moatScore; break
           case 'growth':
@@ -198,20 +200,6 @@ export default function Dashboard() {
         </div>
       </div>
 
-      <div className="mt-6 bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">行业分布</h3>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
-          {Object.entries(stats.industryDistribution)
-            .sort(([, a], [, b]) => b - a)
-            .map(([industry, count]) => (
-              <div key={industry} className="bg-gray-50 rounded-lg p-3">
-                <div className="text-xs text-gray-600 mb-1">{industry}</div>
-                <div className="text-lg font-semibold text-gray-900">{count}</div>
-              </div>
-            ))}
-        </div>
-      </div>
-
       {/* 各维度评分表格 */}
       <div className="mt-6 bg-white rounded-lg shadow-sm border border-gray-200 p-6">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">
@@ -221,7 +209,12 @@ export default function Dashboard() {
           <table className="min-w-full text-sm">
             <thead>
               <tr className="bg-gray-50 border-b">
-                <th className="px-3 py-2 text-left font-medium text-gray-600">排名</th>
+                <th
+                  className="px-3 py-2 text-center font-medium text-gray-600 cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('rank')}
+                >
+                  A50排名 {getSortIcon('rank')}
+                </th>
                 <th className="px-3 py-2 text-left font-medium text-gray-600">公司</th>
                 <th className="px-3 py-2 text-left font-medium text-gray-600">行业</th>
                 <th className="px-3 py-2 text-center font-medium text-gray-600">评级</th>
@@ -265,8 +258,14 @@ export default function Dashboard() {
             </thead>
             <tbody>
               {scoredCompanies.map((company, index) => (
-                <tr key={company.code} className="border-b hover:bg-gray-50">
-                  <td className="px-3 py-2 text-gray-500">{index + 1}</td>
+                <tr
+                  key={company.code}
+                  className="border-b hover:bg-blue-50 cursor-pointer transition-colors"
+                  onClick={() => window.location.href = `/company/${company.code}`}
+                >
+                  <td className="px-3 py-2 text-center">
+                    <span className="font-semibold text-gray-700">{company.rank}</span>
+                  </td>
                   <td className="px-3 py-2">
                     <div className="font-medium text-gray-900">{company.name}</div>
                     <div className="text-xs text-gray-500">{company.code}</div>
@@ -314,6 +313,20 @@ export default function Dashboard() {
         </div>
         <div className="mt-4 text-xs text-gray-500">
           * 加权总分按权重计算（满分100），点击表头可按该维度排序
+        </div>
+      </div>
+
+      <div className="mt-6 bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">行业分布</h3>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+          {Object.entries(stats.industryDistribution)
+            .sort(([, a], [, b]) => b - a)
+            .map(([industry, count]) => (
+              <div key={industry} className="bg-gray-50 rounded-lg p-3">
+                <div className="text-xs text-gray-600 mb-1">{industry}</div>
+                <div className="text-lg font-semibold text-gray-900">{count}</div>
+              </div>
+            ))}
         </div>
       </div>
     </div>
