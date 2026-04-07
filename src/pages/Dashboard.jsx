@@ -1,7 +1,10 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import companies from '../data/companies.json'
 
 export default function Dashboard() {
+  const [sortField, setSortField] = useState('total')
+  const [sortOrder, setSortOrder] = useState('desc')
+
   const stats = useMemo(() => {
     const analyzed = companies.filter((c) => c.status === 'analyzed')
     const pending = companies.filter((c) => c.status === 'pending')
@@ -34,6 +37,83 @@ export default function Dashboard() {
       topCompanies,
     }
   }, [])
+
+  // 计算各维度分数并排序（五维度与评分规则/公司详情一致）
+  const scoredCompanies = useMemo(() => {
+    return companies
+      .filter((c) => c.status === 'analyzed' && c.score != null)
+      .map((c) => {
+        // 兼容旧数据：优先取新字段，无则取 old 字段（同 CompanyDetail 逻辑）
+        const moat = c.moat || 0
+        const growth = c.growth || 0
+        const profitability = c.profitability || c.other || 0
+        const valuation = c.valuation || 0
+        const catalyst = c.catalyst || c.other || 0
+        const weightedScore = c.score || 0
+        return {
+          ...c,
+          moatScore: moat,
+          growthScore: growth,
+          profitabilityScore: profitability,
+          valuationScore: valuation,
+          catalystScore: catalyst,
+          weightedScore: weightedScore,
+        }
+      })
+      .sort((a, b) => {
+        let aVal, bVal
+        switch (sortField) {
+          case 'moat':
+            aVal = a.moatScore; bVal = b.moatScore; break
+          case 'growth':
+            aVal = a.growthScore; bVal = b.growthScore; break
+          case 'profitability':
+            aVal = a.profitabilityScore; bVal = b.profitabilityScore; break
+          case 'valuation':
+            aVal = a.valuationScore; bVal = b.valuationScore; break
+          case 'catalyst':
+            aVal = a.catalystScore; bVal = b.catalystScore; break
+          case 'total':
+          default:
+            aVal = a.weightedScore; bVal = b.weightedScore
+        }
+        return sortOrder === 'desc' ? bVal - aVal : aVal - bVal
+      })
+  }, [sortField, sortOrder])
+
+  const handleSort = (field) => {
+    if (sortField === field) {
+      setSortOrder(sortOrder === 'desc' ? 'asc' : 'desc')
+    } else {
+      setSortField(field)
+      setSortOrder('desc')
+    }
+  }
+
+  const getSortIcon = (field) => {
+    if (sortField !== field) return '⇅'
+    return sortOrder === 'desc' ? '↓' : '↑'
+  }
+
+  const getGradeColor = (grade) => {
+    const colors = {
+      'S+': 'bg-red-500',
+      'S': 'bg-orange-500',
+      'A': 'bg-green-500',
+      'B': 'bg-yellow-500',
+      'C': 'bg-gray-500',
+    }
+    return colors[grade] || 'bg-gray-400'
+  }
+
+  const getScoreColor = (score, maxScore = 100) => {
+    const ratio = score / maxScore
+    if (ratio >= 0.9) return 'text-red-600 font-bold'
+    if (ratio >= 0.8) return 'text-orange-600 font-semibold'
+    if (ratio >= 0.7) return 'text-green-600'
+    if (ratio >= 0.6) return 'text-yellow-600'
+    return 'text-gray-600'
+  }
 
   const gradeColors = {
     'S+': 'bg-red-500',
@@ -129,6 +209,111 @@ export default function Dashboard() {
                 <div className="text-lg font-semibold text-gray-900">{count}</div>
               </div>
             ))}
+        </div>
+      </div>
+
+      {/* 各维度评分表格 */}
+      <div className="mt-6 bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">
+          各维度评分明细（已分析 {scoredCompanies.length} 家）
+        </h3>
+        <div className="overflow-x-auto">
+          <table className="min-w-full text-sm">
+            <thead>
+              <tr className="bg-gray-50 border-b">
+                <th className="px-3 py-2 text-left font-medium text-gray-600">排名</th>
+                <th className="px-3 py-2 text-left font-medium text-gray-600">公司</th>
+                <th className="px-3 py-2 text-left font-medium text-gray-600">行业</th>
+                <th className="px-3 py-2 text-center font-medium text-gray-600">评级</th>
+                <th
+                  className="px-3 py-2 text-center font-medium text-gray-600 cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('total')}
+                >
+                  加权总分 {getSortIcon('total')}
+                </th>
+                <th
+                  className="px-3 py-2 text-center font-medium text-gray-600 cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('moat')}
+                >
+                  护城河(25%) {getSortIcon('moat')}
+                </th>
+                <th
+                  className="px-3 py-2 text-center font-medium text-gray-600 cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('growth')}
+                >
+                  成长性(20%) {getSortIcon('growth')}
+                </th>
+                <th
+                  className="px-3 py-2 text-center font-medium text-gray-600 cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('profitability')}
+                >
+                  盈利质量(20%) {getSortIcon('profitability')}
+                </th>
+                <th
+                  className="px-3 py-2 text-center font-medium text-gray-600 cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('valuation')}
+                >
+                  估值(25%) {getSortIcon('valuation')}
+                </th>
+                <th
+                  className="px-3 py-2 text-center font-medium text-gray-600 cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('catalyst')}
+                >
+                  催化剂(10%) {getSortIcon('catalyst')}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {scoredCompanies.map((company, index) => (
+                <tr key={company.code} className="border-b hover:bg-gray-50">
+                  <td className="px-3 py-2 text-gray-500">{index + 1}</td>
+                  <td className="px-3 py-2">
+                    <div className="font-medium text-gray-900">{company.name}</div>
+                    <div className="text-xs text-gray-500">{company.code}</div>
+                  </td>
+                  <td className="px-3 py-2 text-gray-600">{company.industry}</td>
+                  <td className="px-3 py-2 text-center">
+                    <span className={`${getGradeColor(company.grade)} text-white px-2 py-0.5 rounded text-xs font-bold`}>
+                      {company.grade}
+                    </span>
+                  </td>
+                  <td className="px-3 py-2 text-center">
+                    <span className={getScoreColor(company.weightedScore, 100)}>
+                      {company.weightedScore}
+                    </span>
+                  </td>
+                  <td className="px-3 py-2 text-center">
+                    <span className={getScoreColor(company.moatScore)}>
+                      {company.moatScore}
+                    </span>
+                  </td>
+                  <td className="px-3 py-2 text-center">
+                    <span className={getScoreColor(company.growthScore)}>
+                      {company.growthScore}
+                    </span>
+                  </td>
+                  <td className="px-3 py-2 text-center">
+                    <span className={getScoreColor(company.profitabilityScore)}>
+                      {company.profitabilityScore}
+                    </span>
+                  </td>
+                  <td className="px-3 py-2 text-center">
+                    <span className={getScoreColor(company.valuationScore)}>
+                      {company.valuationScore}
+                    </span>
+                  </td>
+                  <td className="px-3 py-2 text-center">
+                    <span className={getScoreColor(company.catalystScore)}>
+                      {company.catalystScore}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="mt-4 text-xs text-gray-500">
+          * 加权总分按权重计算（满分100），点击表头可按该维度排序
         </div>
       </div>
     </div>
