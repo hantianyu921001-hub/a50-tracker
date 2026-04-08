@@ -99,11 +99,11 @@ export default function Dashboard() {
 
   const getGradeColor = (grade) => {
     const colors = {
-      'S+': 'bg-red-500',
-      'S': 'bg-orange-500',
-      'A': 'bg-green-500',
-      'B': 'bg-yellow-500',
-      'C': 'bg-gray-500',
+      'S': 'bg-red-500',
+      'A': 'bg-orange-500',
+      'B': 'bg-green-500',
+      'C': 'bg-yellow-500',
+      'D': 'bg-gray-500',
     }
     return colors[grade] || 'bg-gray-400'
   }
@@ -118,11 +118,11 @@ export default function Dashboard() {
   }
 
   const gradeColors = {
-    'S+': 'bg-red-500',
-    'S': 'bg-orange-500',
-    'A': 'bg-yellow-500',
-    'B': 'bg-gray-500',
-    'C': 'bg-red-700',
+    'S': 'bg-red-500',
+    'A': 'bg-orange-500',
+    'B': 'bg-green-500',
+    'C': 'bg-yellow-500',
+    'D': 'bg-gray-500',
   }
 
   return (
@@ -162,7 +162,7 @@ export default function Dashboard() {
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">评级分布</h3>
           <div className="space-y-3">
-            {['S+', 'S', 'A', 'B', 'C'].map((grade) => {
+            {['S', 'A', 'B', 'C', 'D'].map((grade) => {
               const count = stats.gradeDistribution[grade] || 0
               const percentage = stats.analyzed > 0 ? (count / stats.analyzed) * 100 : 0
               return (

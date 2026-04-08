@@ -16,7 +16,7 @@ export default function Home() {
     return [...new Set(companies.map((c) => c.industry))].sort()
   }, [])
 
-  const grades = ['S+', 'S', 'A', 'B', 'C']
+  const grades = ['S', 'A', 'B', 'C', 'D']
 
   const filteredCompanies = useMemo(() => {
     return companies.filter((company) => {

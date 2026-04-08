@@ -356,28 +356,28 @@ export default function RatingRules() {
           <tbody>
             <tr className="border-t bg-red-50">
               <td className="px-4 py-2 font-bold">90-100分</td>
-              <td className="px-4 py-2"><span className="bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">S+</span></td>
-              <td className="px-4 py-2">极优（顶级标的，重仓15-25%）</td>
+              <td className="px-4 py-2"><span className="bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">S</span></td>
+              <td className="px-4 py-2">极度低估/确定性极高（强烈买入）</td>
             </tr>
             <tr className="border-t bg-orange-50">
-              <td className="px-4 py-2 font-bold">85-89分</td>
-              <td className="px-4 py-2"><span className="bg-orange-500 text-white px-2 py-1 rounded text-xs font-bold">S</span></td>
-              <td className="px-4 py-2">优秀（强烈买入，标配10-15%）</td>
+              <td className="px-4 py-2 font-bold">80-89分</td>
+              <td className="px-4 py-2"><span className="bg-orange-500 text-white px-2 py-1 rounded text-xs font-bold">A</span></td>
+              <td className="px-4 py-2">明显低估/逻辑清晰（买入）</td>
             </tr>
             <tr className="border-t bg-green-50">
-              <td className="px-4 py-2 font-bold">75-84分</td>
-              <td className="px-4 py-2"><span className="bg-green-500 text-white px-2 py-1 rounded text-xs font-bold">A</span></td>
-              <td className="px-4 py-2">良好（买入，轻配5-10%）</td>
+              <td className="px-4 py-2 font-bold">70-79分</td>
+              <td className="px-4 py-2"><span className="bg-green-500 text-white px-2 py-1 rounded text-xs font-bold">B</span></td>
+              <td className="px-4 py-2">合理偏高/逻辑通顺（持有）</td>
             </tr>
             <tr className="border-t bg-yellow-50">
-              <td className="px-4 py-2 font-bold">65-74分</td>
-              <td className="px-4 py-2"><span className="bg-yellow-500 text-white px-2 py-1 rounded text-xs font-bold">B</span></td>
-              <td className="px-4 py-2">一般（观望，等待机会）</td>
+              <td className="px-4 py-2 font-bold">60-69分</td>
+              <td className="px-4 py-2"><span className="bg-yellow-500 text-white px-2 py-1 rounded text-xs font-bold">C</span></td>
+              <td className="px-4 py-2">估值偏高/需要观察（观望）</td>
             </tr>
             <tr className="border-t bg-gray-50">
-              <td className="px-4 py-2 font-bold">65分以下</td>
-              <td className="px-4 py-2"><span className="bg-gray-500 text-white px-2 py-1 rounded text-xs font-bold">C</span></td>
-              <td className="px-4 py-2">较差（规避）</td>
+              <td className="px-4 py-2 font-bold">60分以下</td>
+              <td className="px-4 py-2"><span className="bg-gray-500 text-white px-2 py-1 rounded text-xs font-bold">D</span></td>
+              <td className="px-4 py-2">高风险/逻辑有硬伤（规避）</td>
             </tr>
           </tbody>
         </table>
@@ -410,7 +410,7 @@ export default function RatingRules() {
                 <td className="px-3 py-2 text-center text-green-600 font-bold">25</td>
                 <td className="px-3 py-2 text-center">9</td>
                 <td className="px-3 py-2 text-center font-bold">84</td>
-                <td className="px-3 py-2 text-center"><span className="bg-green-500 text-white px-2 py-1 rounded text-xs font-bold">S+</span></td>
+                <td className="px-3 py-2 text-center"><span className="bg-orange-500 text-white px-2 py-1 rounded text-xs font-bold">A</span></td>
               </tr>
               <tr className="border-t bg-gray-50">
                 <td className="px-3 py-2 font-medium">贵州茅台</td>
@@ -420,7 +420,7 @@ export default function RatingRules() {
                 <td className="px-3 py-2 text-center">15</td>
                 <td className="px-3 py-2 text-center">6</td>
                 <td className="px-3 py-2 text-center font-bold">80</td>
-                <td className="px-3 py-2 text-center"><span className="bg-green-500 text-white px-2 py-1 rounded text-xs font-bold">S+</span></td>
+                <td className="px-3 py-2 text-center"><span className="bg-orange-500 text-white px-2 py-1 rounded text-xs font-bold">A</span></td>
               </tr>
               <tr className="border-t">
                 <td className="px-3 py-2 font-medium">招商银行</td>
