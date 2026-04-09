@@ -245,7 +245,8 @@
     "catalyst": 90,
     "a50_weight": 10.593,
     "a50_rank_original": 1,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电力设备"
   },
   {
     "rank": 2,
@@ -442,7 +443,8 @@
     },
     "a50_weight": 9.278,
     "a50_rank_original": 2,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "食品饮料"
   },
   {
     "rank": 3,
@@ -702,7 +704,8 @@
     "catalyst": 75,
     "a50_weight": 6.465,
     "a50_rank_original": 3,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "通信"
   },
   {
     "rank": 4,
@@ -931,7 +934,8 @@
     "catalyst": 85,
     "a50_weight": 6.185,
     "a50_rank_original": 4,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "非银金融"
   },
   {
     "rank": 5,
@@ -1203,7 +1207,8 @@
     "catalyst": 72,
     "a50_weight": 5.507,
     "a50_rank_original": 5,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "有色金属"
   },
   {
     "rank": 6,
@@ -1474,7 +1479,8 @@
     "catalyst": 75,
     "a50_weight": 4.973,
     "a50_rank_original": 6,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "银行"
   },
   {
     "rank": 7,
@@ -1745,7 +1751,8 @@
     "catalyst": 78,
     "a50_weight": 3.842,
     "a50_rank_original": 7,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "家用电器"
   },
   {
     "rank": 8,
@@ -2010,7 +2017,8 @@
     "catalyst": 80,
     "a50_weight": 3.381,
     "a50_rank_original": 8,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "公用事业"
   },
   {
     "rank": 9,
@@ -2276,7 +2284,8 @@
     "catalyst": 70,
     "a50_weight": 2.922,
     "a50_rank_original": 9,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "汽车"
   },
   {
     "rank": 10,
@@ -2522,7 +2531,8 @@
     "catalyst": 60,
     "a50_weight": 2.566,
     "a50_rank_original": 10,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电子"
   },
   {
     "rank": 11,
@@ -2788,7 +2798,8 @@
     "catalyst": 75,
     "a50_weight": 2.52,
     "a50_rank_original": 11,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "医药生物"
   },
   {
     "rank": 12,
@@ -2951,7 +2962,8 @@
     },
     "a50_weight": 2.479,
     "a50_rank_original": 12,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "医药生物"
   },
   {
     "rank": 13,
@@ -3202,7 +3214,8 @@
     "catalyst": 65,
     "a50_weight": 2.398,
     "a50_rank_original": 13,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "非银金融"
   },
   {
     "rank": 14,
@@ -3395,7 +3408,8 @@
     },
     "a50_weight": 1.978,
     "a50_rank_original": 14,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电子"
   },
   {
     "rank": 15,
@@ -3633,7 +3647,8 @@
     "catalyst": 60,
     "a50_weight": 1.922,
     "a50_rank_original": 15,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电子"
   },
   {
     "rank": 16,
@@ -3890,7 +3905,8 @@
     "catalyst": 85,
     "a50_weight": 1.706,
     "a50_rank_original": 16,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "煤炭"
   },
   {
     "rank": 17,
@@ -4063,7 +4079,8 @@
         "summary": "消费复苏+产品结构升级+奶粉业务放量"
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "食品饮料"
   },
   {
     "code": "300476",
@@ -4260,7 +4277,8 @@
         ]
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电子"
   },
   {
     "rank": 19,
@@ -4518,7 +4536,8 @@
     "catalyst": 80,
     "a50_weight": 1.525,
     "a50_rank_original": 19,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "基础化工"
   },
   {
     "code": "601816",
@@ -4717,7 +4736,8 @@
         ]
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "交通运输"
   },
   {
     "rank": 21,
@@ -4969,7 +4989,8 @@
     "catalyst": 50,
     "a50_weight": 1.467,
     "a50_rank_original": 21,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电子"
   },
   {
     "rank": 22,
@@ -5133,7 +5154,8 @@
     },
     "a50_weight": 1.294,
     "a50_rank_original": 22,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电力设备"
   },
   {
     "code": "600111",
@@ -5327,7 +5349,8 @@
         ]
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "有色金属"
   },
   {
     "rank": 24,
@@ -5488,7 +5511,8 @@
     },
     "a50_weight": 1.2,
     "a50_rank_original": 24,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "基础化工"
   },
   {
     "rank": 25,
@@ -5682,7 +5706,8 @@
         "summary": "国内工程机械复苏+海外市场扩张+电动化转型"
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "机械设备"
   },
   {
     "rank": 26,
@@ -5877,7 +5902,8 @@
         "summary": "2026下半年猪周期反转预期，能繁母猪去化超1年，供需拐点将现"
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "农林牧渔"
   },
   {
     "rank": 27,
@@ -6137,7 +6163,8 @@
     "catalyst": 55,
     "a50_weight": 1.092,
     "a50_rank_original": 27,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "计算机"
   },
   {
     "rank": 28,
@@ -6327,7 +6354,8 @@
         "summary": "BC技术量产+行业出清+海外市场，2026年有望扭亏"
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电力设备"
   },
   {
     "rank": 29,
@@ -6562,7 +6590,8 @@
     "catalyst": 78,
     "a50_weight": 1.067,
     "a50_rank_original": 29,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "机械设备"
   },
   {
     "code": "000988",
@@ -6825,7 +6854,8 @@
         ]
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "电子"
   },
   {
     "rank": 31,
@@ -7095,7 +7125,8 @@
     "catalyst": 72,
     "a50_weight": 1.058,
     "a50_rank_original": 31,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "建筑装饰"
   },
   {
     "rank": 32,
@@ -7292,7 +7323,8 @@
         "summary": "海外拓展加速（+17%欧洲），新兴业务+39%，港股上市预期，2026年业绩复苏"
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "医药生物"
   },
   {
     "rank": 33,
@@ -7487,7 +7519,8 @@
         "summary": "新能源汽车渗透率提升+智能化玻璃ASP提升+海外市场扩张"
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "汽车"
   },
   {
     "code": "601600",
@@ -7752,7 +7785,8 @@
         ]
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "有色金属"
   },
   {
     "rank": 35,
@@ -8004,7 +8038,8 @@
     "catalyst": 78,
     "a50_weight": 0.876,
     "a50_rank_original": 35,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "石油石化"
   },
   {
     "code": "600941",
@@ -8215,7 +8250,8 @@
         "score": 78
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "通信"
   },
   {
     "rank": 37,
@@ -8403,7 +8439,8 @@
     },
     "a50_weight": 0.788,
     "a50_rank_original": 37,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "机械设备"
   },
   {
     "rank": 38,
@@ -8681,7 +8718,8 @@
     },
     "a50_weight": 0.702,
     "a50_rank_original": 38,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "社会服务"
   },
   {
     "rank": 39,
@@ -8892,7 +8930,8 @@
         "score": 75
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "传媒"
   },
   {
     "rank": 40,
@@ -9077,7 +9116,8 @@
     "lastUpdated": "2026-04-07",
     "a50_weight": 0.655,
     "a50_rank_original": 40,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "国防军工"
   },
   {
     "code": "002625",
@@ -9301,7 +9341,8 @@
         "summary": "订单爆发（在手67亿）+产能释放（2026年提升3倍）+军民融合（低空经济/6G/智能汽车）+第四代技术商业化+军工订单持续"
       }
     },
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "国防军工"
   },
   {
     "rank": 42,
@@ -9584,7 +9625,8 @@
     },
     "a50_weight": 0.571,
     "a50_rank_original": 42,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "钢铁"
   },
   {
     "rank": 43,
@@ -9746,7 +9788,8 @@
     },
     "a50_weight": 0.568,
     "a50_rank_original": 43,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "建筑材料"
   },
   {
     "rank": 44,
@@ -9939,7 +9982,8 @@
     },
     "a50_weight": 0.509,
     "a50_rank_original": 44,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "通信"
   },
   {
     "rank": 45,
@@ -10116,7 +10160,8 @@
     },
     "a50_weight": 0.466,
     "a50_rank_original": 45,
-    "isA50": true
+    "isA50": true,
+    "swIndustry": "医药生物"
   },
   {
     "code": "300015",
@@ -10338,7 +10383,8 @@
           "海外扩张空间大：境外169家中心持续布局"
         ]
       }
-    }
+    },
+    "swIndustry": "医药生物"
   },
   {
     "code": "605499",
@@ -10529,7 +10575,8 @@
           "产能持续释放：14大生产基地全国布局，支撑未来3年增长"
         ]
       }
-    }
+    },
+    "swIndustry": "食品饮料"
   },
   {
     "code": "600048",
@@ -10721,7 +10768,8 @@
           "REITs+回购+增持：多重利好共振，股东回报承诺40%+分红率"
         ]
       }
-    }
+    },
+    "swIndustry": "房地产"
   },
   {
     "code": "600415",
@@ -10899,7 +10947,8 @@
           "经营现金流极其充沛：96亿经营现金流为未来投资和分红提供充足保障"
         ]
       }
-    }
+    },
+    "swIndustry": "商贸零售"
   },
   {
     "code": "000617",
@@ -11078,10 +11127,11 @@
           "绿色金融+核聚变前瞻布局：1000亿绿色金融+可控核聚变投资，长期成长空间大"
         ]
       }
-    }
+    },
+    "swIndustry": "非银金融"
   },
   {
-    "rank": 51,
+    "rank": null,
     "code": "600050",
     "name": "中国联通",
     "industry": "通信",
@@ -11313,10 +11363,11 @@
     },
     "profitability": 65,
     "catalyst": 65,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "通信"
   },
   {
-    "rank": 52,
+    "rank": null,
     "code": "000063",
     "name": "中兴通讯",
     "industry": "通信设备",
@@ -11549,10 +11600,11 @@
     },
     "profitability": 68,
     "catalyst": 68,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "通信"
   },
   {
-    "rank": 53,
+    "rank": null,
     "code": "002415",
     "name": "海康威视",
     "industry": "安防",
@@ -11819,10 +11871,11 @@
         ]
       }
     },
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "计算机"
   },
   {
-    "rank": 54,
+    "rank": null,
     "code": "600754",
     "name": "锦江酒店",
     "industry": "酒店",
@@ -12010,10 +12063,11 @@
         "summary": "出行复苏+国企改革+H股上市预期"
       }
     },
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "社会服务"
   },
   {
-    "rank": 55,
+    "rank": null,
     "code": "600009",
     "name": "上海机场",
     "industry": "机场",
@@ -12210,10 +12264,11 @@
       "valuation": "PE 29倍合理偏高，PB 1.64倍合理，估值处于历史中等水平",
       "catalyst": "国际航线持续恢复，免税合同重新谈判，浦东机场四期扩建推进"
     },
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "交通运输"
   },
   {
-    "rank": 56,
+    "rank": null,
     "code": "600426",
     "name": "华鲁恒升",
     "industry": "化工",
@@ -12371,10 +12426,11 @@
         "summary": "荆州基地新产能释放+新材料项目投产，但煤化工景气修复不明确"
       }
     },
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "基础化工"
   },
   {
-    "rank": 57,
+    "rank": null,
     "code": "300122",
     "name": "智飞生物",
     "industry": "疫苗",
@@ -12532,10 +12588,11 @@
         "summary": "默沙东取消178亿采购（利空出尽），15价肺炎疫苗上市在即，但库存压力仍存"
       }
     },
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "医药生物"
   },
   {
-    "rank": 58,
+    "rank": null,
     "code": "002466",
     "name": "天齐锂业",
     "industry": "锂矿",
@@ -12570,10 +12627,11 @@
     "lastUpdated": "2026-04-07",
     "profitability": 70,
     "catalyst": 70,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "有色金属"
   },
   {
-    "rank": 59,
+    "rank": null,
     "code": "603605",
     "name": "珀莱雅",
     "industry": "化妆品",
@@ -12608,10 +12666,11 @@
     "lastUpdated": "2026-04-07",
     "profitability": 80,
     "catalyst": 72,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "美容护理"
   },
   {
-    "rank": 60,
+    "rank": null,
     "code": "002352",
     "name": "顺丰控股",
     "industry": "物流",
@@ -12646,10 +12705,11 @@
     "lastUpdated": "2026-04-07",
     "profitability": 75,
     "catalyst": 72,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "交通运输"
   },
   {
-    "rank": 61,
+    "rank": null,
     "code": "000002",
     "name": "万科A",
     "industry": "房地产",
@@ -12684,10 +12744,11 @@
     "lastUpdated": "2026-04-07",
     "profitability": 55,
     "catalyst": 60,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "房地产"
   },
   {
-    "rank": 62,
+    "rank": null,
     "code": "002271",
     "name": "东方雨虹",
     "industry": "防水材料",
@@ -12722,10 +12783,11 @@
     "lastUpdated": "2026-04-07",
     "profitability": 72,
     "catalyst": 70,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "建筑装饰"
   },
   {
-    "rank": 63,
+    "rank": null,
     "code": "600015",
     "name": "华夏银行",
     "industry": "银行",
@@ -12965,10 +13027,11 @@
     },
     "profitability": 72,
     "catalyst": 72,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "银行"
   },
   {
-    "rank": 64,
+    "rank": null,
     "code": "601985",
     "name": "中国核电",
     "industry": "核电",
@@ -13207,10 +13270,11 @@
     },
     "profitability": 70,
     "catalyst": 70,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "公用事业"
   },
   {
-    "rank": 65,
+    "rank": null,
     "code": "000166",
     "name": "申万宏源",
     "industry": "券商",
@@ -13456,6 +13520,211 @@
     },
     "profitability": 70,
     "catalyst": 70,
-    "isA50": true
+    "isA50": false,
+    "swIndustry": "非银金融"
+  },
+  {
+    "rank": 51,
+    "code": "601398",
+    "name": "工商银行",
+    "a50_weight": null,
+    "a50_rank_original": null,
+    "status": "analyzed",
+    "industry": "银行",
+    "grade": "B",
+    "score": 73,
+    "moat": 82,
+    "growth": 45,
+    "profitability": 60,
+    "valuation": 90,
+    "catalyst": 72,
+    "recommendation": "持有",
+    "idealPrice": "6.0-7.0元",
+    "tags": [
+      "银行",
+      "国有大行",
+      "高股息",
+      "宇宙行",
+      "中特估"
+    ],
+    "lastUpdate": "2026-04-09",
+    "summary": "全球资产规模最大银行，53万亿资产'宇宙行'，PB 0.68倍深度破净，股息率4.2%，分红率30%，稳健底仓型标的",
+    "scoringRationale": {
+      "moat": {
+        "summary": "53万亿资产全球第一+7.3亿个人客户+国家信用背书，护城河极深但盈利转化弱"
+      },
+      "growth": {
+        "summary": "2025年营收+2%净利+0.7%微增，机构预测2026年净利+2.2%，增长乏力"
+      },
+      "profitability": {
+        "summary": "ROE 9.45%偏低，净息差1.28%（-14bp）持续承压，零售不良率1.58%上升"
+      },
+      "valuation": {
+        "summary": "PB 0.68倍深度破净，PE 7.08倍极低，股息率4.2%，估值安全边际极高"
+      },
+      "catalyst": {
+        "summary": "息差边际企稳+中特估政策红利+分红刚性+经济复苏预期"
+      }
+    },
+    "analysis": {
+      "conclusion": "工商银行是全球资产规模最大的银行，53万亿总资产+7.3亿个人客户+30.51万亿存款构成极深护城河。作为'宇宙行'，其国家信用背书意味着'大到不能倒'的安全边际。但盈利能力偏弱（ROE 9.45%远低于招行13.44%），净息差1.28%持续承压（-14bp），零售不良率1.58%上升43bp需关注。当前PB 0.68倍深度破净，PE 7.08倍极低，股息率4.2%，估值安全边际极高。适合纯收息型投资者作为底仓配置，但期待估值修复需耐心。综合评分73分（B级），建议持有。",
+      "companyOverview": "中国工商银行成立于1984年1月1日，2006年在上交所和港交所同日挂牌上市，是全球资产规模最大的商业银行。截至2025年末，总资产突破53万亿元，客户存款30.51万亿元，个人客户7.3亿户，对公客户超1200万户。连续12年位列英国《银行家》全球银行1000强榜首，连续9年Brand Finance全球银行品牌价值第一。主营业务涵盖公司银行、个人银行、资金业务和投资银行，是国内最大的国有商业银行。",
+      "annualReport": [
+        {
+          "metric": "营业收入",
+          "value": "8382.70亿",
+          "change": "+2.0%"
+        },
+        {
+          "metric": "归母净利润",
+          "value": "3685.62亿",
+          "change": "+0.7%"
+        },
+        {
+          "metric": "净息差",
+          "value": "1.28%",
+          "change": "-14bp"
+        },
+        {
+          "metric": "不良贷款率",
+          "value": "1.31%",
+          "change": "-3bp"
+        },
+        {
+          "metric": "拨备覆盖率",
+          "value": "213.6%",
+          "change": "-3.6pct"
+        },
+        {
+          "metric": "ROE",
+          "value": "9.45%",
+          "change": "-0.43pct"
+        },
+        {
+          "metric": "核心一级资本充足率",
+          "value": "13.57%",
+          "change": "-0.53pct"
+        },
+        {
+          "metric": "总资产",
+          "value": "53万亿+",
+          "change": "+9.5%"
+        },
+        {
+          "metric": "客户存款",
+          "value": "30.51万亿",
+          "change": "+7.5%"
+        },
+        {
+          "metric": "分红总额",
+          "value": "1105.93亿",
+          "change": "+0.75%"
+        },
+        {
+          "metric": "股息率",
+          "value": "约4.2%",
+          "change": "稳定"
+        },
+        {
+          "metric": "零售不良率",
+          "value": "1.58%",
+          "change": "+43bp"
+        }
+      ],
+      "competitiveAdvantage": [
+        {
+          "title": "全球最大银行规模效应（极深护城河）",
+          "points": [
+            "总资产53万亿+全球第一，资产规模是摩根大通1.5倍",
+            "客户存款30.51万亿（+7.5%），负债端成本优势行业最强",
+            "7.3亿个人客户+1200万对公客户，客户基础不可撼动",
+            "连续12年全球银行1000强榜首，品牌公信力极强"
+          ]
+        },
+        {
+          "title": "国家信用背书'大到不能倒'（安全边际极高）",
+          "points": [
+            "国有大行龙头，国家信用背书等同于国债级安全",
+            "G-SIBs全球系统重要性银行，监管保护壁垒极高",
+            "分红刚性：连续多年分红率30%+，年分红1100亿+",
+            "中特估核心标的，政策红利确定性高"
+          ]
+        },
+        {
+          "title": "全牌照综合金融服务（协同优势）",
+          "points": [
+            "银行+理财+基金+保险+租赁全牌照协同",
+            "对公业务市占率领先，基建/央企贷款核心服务商",
+            "数字化转型：工行App月活超2亿，金融科技投入行业前列",
+            "全球网络：覆盖49个国家和地区，跨境金融领先"
+          ]
+        }
+      ],
+      "valuationAnalysis": {
+        "current": "PB 0.68倍深度破净，处于近5年15%分位；PE 7.08倍极低；股息率约4.2%。估值安全边际极高，但ROE 9.45%偏低导致PB修复缺乏盈利支撑。分红率30%稳定，全年分红1105.93亿。",
+        "comparison": [
+          {
+            "公司": "工商银行",
+            "PB": "0.68倍",
+            "PE": "7.08倍",
+            "股息率": "4.2%",
+            "ROE": "9.45%"
+          },
+          {
+            "公司": "招商银行",
+            "PB": "0.84倍",
+            "PE": "6.6倍",
+            "股息率": "5.1%",
+            "ROE": "13.44%"
+          },
+          {
+            "公司": "建设银行",
+            "PB": "0.65倍",
+            "PE": "6.0倍",
+            "股息率": "5.5%",
+            "ROE": "10.5%"
+          },
+          {
+            "公司": "农业银行",
+            "PB": "0.60倍",
+            "PE": "5.8倍",
+            "股息率": "5.8%",
+            "ROE": "10.2%"
+          }
+        ],
+        "fairValue": "基于PB估值法，给予0.75-0.85倍PB（过去10年均值约0.8倍），对应合理股价7.4-8.4元，较当前约7.3元有1-15%上涨空间。机构目标价8.62-9.26元（东北证券/国泰君安）。"
+      },
+      "investmentStrategy": {
+        "targetPrice": "7.4-8.4元",
+        "positionSize": "底仓配置，建议仓位5-10%",
+        "timeHorizon": "2-3年",
+        "entryStrategy": {
+          "firstBatch": "6.0-6.5元建仓30%（PB约0.6倍，深度破净）",
+          "secondBatch": "6.5-7.0元加仓40%（PB 0.65-0.68倍，当前估值区间）",
+          "thirdBatch": "7.0-7.5元加仓30%（PB 0.68-0.72倍，确认息差企稳）"
+        },
+        "exitStrategy": {
+          "partial": "8.0-8.5元减持30%（PB约0.8倍，估值修复）",
+          "major": "8.5-9.5元减持50%（PB 0.85-0.95倍，需ROE回升配合）",
+          "full": "10元以上清仓（PB接近1倍，国有大行估值泡沫）"
+        },
+        "dividendReinvestment": "分红再投资，长期持有。股息率4.2%，年分红1105.93亿稳定，分红率30%有保障，适合收息型投资者。"
+      },
+      "riskWarning": {
+        "medium": [
+          "净息差1.28%持续承压（-14bp），LPR下调压缩利润空间",
+          "零售不良率1.58%同比+43bp，信用卡+经营贷风险上升",
+          "ROE 9.45%偏低，PB修复缺乏盈利支撑",
+          "宏观经济下行可能导致资产质量恶化"
+        ],
+        "low": [
+          "PB 0.68倍已深度破净，估值风险极小",
+          "国有大行'大到不能倒'，安全性极高",
+          "股息率4.2%提供安全垫，分红刚性保障",
+          "中特估政策红利有望催化估值修复"
+        ]
+      }
+    },
+    "swIndustry": "银行"
   }
 ]

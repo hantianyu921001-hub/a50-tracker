@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
 import Home from './pages/Home'
 import CompanyDetail from './pages/CompanyDetail'
-import Dashboard from './pages/Dashboard'
+import IndustryPage from './pages/IndustryPage'
 import RatingRules from './pages/RatingRules'
 
 function App() {
@@ -12,18 +12,24 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <h1 className="text-xl font-bold text-gray-900">
-                中证A50跟踪系统
+                A50 Tracker Plus
               </h1>
-              <nav className="flex space-x-4">
-                <a href="/" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium">
-                  公司列表
-                </a>
-                <a href="/dashboard" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium">
-                  统计看板
-                </a>
-                <a href="/rating-rules" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+              <nav className="flex space-x-1">
+                <NavLink to="/" end className={({ isActive }) => 
+                  `px-3 py-2 text-sm font-medium rounded-md ${isActive ? 'text-blue-700 bg-blue-50' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'}`
+                }>
+                  总览
+                </NavLink>
+                <NavLink to="/industry" className={({ isActive }) => 
+                  `px-3 py-2 text-sm font-medium rounded-md ${isActive ? 'text-blue-700 bg-blue-50' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'}`
+                }>
+                  行业分布
+                </NavLink>
+                <NavLink to="/rating-rules" className={({ isActive }) => 
+                  `px-3 py-2 text-sm font-medium rounded-md ${isActive ? 'text-blue-700 bg-blue-50' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'}`
+                }>
                   评分规则
-                </a>
+                </NavLink>
               </nav>
             </div>
           </div>
@@ -33,7 +39,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/company/:code" element={<CompanyDetail />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/industry" element={<IndustryPage />} />
             <Route path="/rating-rules" element={<RatingRules />} />
           </Routes>
         </main>

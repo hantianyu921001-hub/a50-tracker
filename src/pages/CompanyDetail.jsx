@@ -98,7 +98,7 @@ export default function CompanyDetail() {
         <div className="p-6 border-b border-gray-200">
           <div className="flex justify-between items-start">
             <div>
-              <div className="text-sm text-gray-500 mb-1">权重排名 #{company.rank}</div>
+              <div className="text-sm text-gray-500 mb-1">{company.isA50 && company.rank ? `权重排名 #${company.rank}` : '非A50成分股'}</div>
               <h1 className="text-2xl font-bold text-gray-900 mb-1">{company.name}</h1>
               <div className="text-gray-600">
                 {company.code} · {company.industry}
