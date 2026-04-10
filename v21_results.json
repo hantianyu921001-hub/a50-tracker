@@ -1,0 +1,2569 @@
+[
+  {
+    "name": "宁德时代",
+    "code": "300750",
+    "industry": "电池",
+    "v21_total": 56,
+    "v21_grade": "C",
+    "v21_moat": 15,
+    "v21_growth": 13,
+    "v21_profit": 13,
+    "v21_valuation": 11,
+    "v21_catalyst": 4,
+    "v21_risk": 0,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换3/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势5/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率3/5",
+        "现金流3/5",
+        "股东回报3/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业1/5",
+        "股回3/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": []
+    },
+    "orig_score": 83,
+    "orig_grade": "A",
+    "pe": 24.0,
+    "pb": 5.23,
+    "roe": 24.0,
+    "dividend_yield": 1.7
+  },
+  {
+    "name": "贵州茅台",
+    "code": "600519",
+    "industry": "白酒",
+    "v21_total": 74,
+    "v21_grade": "B",
+    "v21_moat": 24,
+    "v21_growth": 13,
+    "v21_profit": 19,
+    "v21_valuation": 16,
+    "v21_catalyst": 6,
+    "v21_risk": -4,
+    "v21_details": {
+      "moat": [],
+      "growth": [],
+      "profit": [],
+      "valuation": [],
+      "catalyst": [],
+      "risk": []
+    },
+    "orig_score": 91,
+    "orig_grade": "S",
+    "pe": 22.0,
+    "pb": 7.0,
+    "roe": -36.0,
+    "dividend_yield": -2.0,
+    "manual": true
+  },
+  {
+    "name": "中际旭创",
+    "code": "300308",
+    "industry": "通信设备",
+    "v21_total": 60,
+    "v21_grade": "B",
+    "v21_moat": 11,
+    "v21_growth": 18,
+    "v21_profit": 13,
+    "v21_valuation": 12,
+    "v21_catalyst": 7,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史8/8",
+        "趋势5/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE5/5",
+        "利润率3/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业1/5",
+        "股回1/5",
+        "匹配5/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-1"
+      ]
+    },
+    "orig_score": 80,
+    "orig_grade": "A",
+    "pe": 28.0,
+    "pb": 8.0,
+    "roe": 43.6,
+    "dividend_yield": null
+  },
+  {
+    "name": "中国平安",
+    "code": "601318",
+    "industry": "保险",
+    "v21_total": 72,
+    "v21_grade": "B",
+    "v21_moat": 19,
+    "v21_growth": 14,
+    "v21_profit": 15,
+    "v21_valuation": 22,
+    "v21_catalyst": 7,
+    "v21_risk": -5,
+    "v21_details": {
+      "moat": [],
+      "growth": [],
+      "profit": [],
+      "valuation": [],
+      "catalyst": [],
+      "risk": []
+    },
+    "orig_score": 84,
+    "orig_grade": "A",
+    "pe": null,
+    "pb": null,
+    "roe": 13.5,
+    "dividend_yield": 5.0,
+    "manual": true
+  },
+  {
+    "name": "紫金矿业",
+    "code": "601899",
+    "industry": "有色金属",
+    "v21_total": 56,
+    "v21_grade": "C",
+    "v21_moat": 13,
+    "v21_growth": 15,
+    "v21_profit": 12,
+    "v21_valuation": 13,
+    "v21_catalyst": 6,
+    "v21_risk": -3,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源3/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势5/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE3/5",
+        "利润率3/5",
+        "现金流3/5",
+        "股东回报3/5"
+      ],
+      "valuation": [
+        "分位6/10",
+        "行业2/5",
+        "股回3/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-3"
+      ]
+    },
+    "orig_score": 77,
+    "orig_grade": "B",
+    "pe": 17.0,
+    "pb": 4.8,
+    "roe": 18.0,
+    "dividend_yield": 1.5
+  },
+  {
+    "name": "招商银行",
+    "code": "600036",
+    "industry": "银行",
+    "v21_total": 67,
+    "v21_grade": "C",
+    "v21_moat": 18,
+    "v21_growth": 9,
+    "v21_profit": 16,
+    "v21_valuation": 23,
+    "v21_catalyst": 6,
+    "v21_risk": -5,
+    "v21_details": {
+      "moat": [],
+      "growth": [],
+      "profit": [],
+      "valuation": [],
+      "catalyst": [],
+      "risk": []
+    },
+    "orig_score": 81,
+    "orig_grade": "A",
+    "pe": 6.6,
+    "pb": 0.84,
+    "roe": 13.44,
+    "dividend_yield": 5.1,
+    "manual": true
+  },
+  {
+    "name": "美的集团",
+    "code": "000333",
+    "industry": "家电",
+    "v21_total": 60,
+    "v21_grade": "B",
+    "v21_moat": 11,
+    "v21_growth": 14,
+    "v21_profit": 14,
+    "v21_valuation": 16,
+    "v21_catalyst": 6,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势4/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率3/5",
+        "现金流3/5",
+        "股东回报4/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业3/5",
+        "股回4/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "竞争-1"
+      ]
+    },
+    "orig_score": 78,
+    "orig_grade": "B",
+    "pe": 13.0,
+    "pb": 3.5,
+    "roe": 22.0,
+    "dividend_yield": 4.0
+  },
+  {
+    "name": "长江电力",
+    "code": "600900",
+    "industry": "电力",
+    "v21_total": 57,
+    "v21_grade": "C",
+    "v21_moat": 14,
+    "v21_growth": 11,
+    "v21_profit": 15,
+    "v21_valuation": 13,
+    "v21_catalyst": 4,
+    "v21_risk": 0,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本3/4",
+        "技术4/5",
+        "资源3/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势4/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率4/5",
+        "现金流5/5",
+        "股东回报4/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业2/5",
+        "股回4/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": []
+    },
+    "orig_score": 80,
+    "orig_grade": "A",
+    "pe": 22.0,
+    "pb": 2.8,
+    "roe": 14.0,
+    "dividend_yield": 4.0
+  },
+  {
+    "name": "比亚迪",
+    "code": "002594",
+    "industry": "新能源汽车",
+    "v21_total": 53,
+    "v21_grade": "C",
+    "v21_moat": 13,
+    "v21_growth": 14,
+    "v21_profit": 9,
+    "v21_valuation": 16,
+    "v21_catalyst": 6,
+    "v21_risk": -5,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势3/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配5/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-2",
+        "竞争-3"
+      ]
+    },
+    "orig_score": 81,
+    "orig_grade": "A",
+    "pe": 15.0,
+    "pb": 2.1,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "立讯精密",
+    "code": "002475",
+    "industry": "电子制造",
+    "v21_total": 46,
+    "v21_grade": "D",
+    "v21_moat": 10,
+    "v21_growth": 13,
+    "v21_profit": 9,
+    "v21_valuation": 10,
+    "v21_catalyst": 7,
+    "v21_risk": -3,
+    "v21_details": {
+      "moat": [
+        "品牌3/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势4/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE3/5",
+        "利润率1/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业2/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-3"
+      ]
+    },
+    "orig_score": 67,
+    "orig_grade": "C",
+    "pe": 22.0,
+    "pb": 4.4,
+    "roe": 19.7,
+    "dividend_yield": null
+  },
+  {
+    "name": "恒瑞医药",
+    "code": "600276",
+    "industry": "医药",
+    "v21_total": 42,
+    "v21_grade": "D",
+    "v21_moat": 11,
+    "v21_growth": 13,
+    "v21_profit": 9,
+    "v21_valuation": 5,
+    "v21_catalyst": 6,
+    "v21_risk": -2,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势3/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业1/5",
+        "股回1/5",
+        "匹配1/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-2"
+      ]
+    },
+    "orig_score": 75,
+    "orig_grade": "B",
+    "pe": 38.0,
+    "pb": 6.5,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "药明康德",
+    "code": "603259",
+    "industry": "CXO",
+    "v21_total": 51,
+    "v21_grade": "C",
+    "v21_moat": 12,
+    "v21_growth": 15,
+    "v21_profit": 11,
+    "v21_valuation": 11,
+    "v21_catalyst": 5,
+    "v21_risk": -3,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史8/8",
+        "趋势4/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-2",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 73,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "中信证券",
+    "code": "600030",
+    "industry": "券商",
+    "v21_total": 51,
+    "v21_grade": "C",
+    "v21_moat": 13,
+    "v21_growth": 12,
+    "v21_profit": 8,
+    "v21_valuation": 16,
+    "v21_catalyst": 4,
+    "v21_risk": -2,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势3/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE1/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配5/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 79,
+    "orig_grade": "B",
+    "pe": 13.0,
+    "pb": 1.1,
+    "roe": 9.4,
+    "dividend_yield": null
+  },
+  {
+    "name": "北方华创",
+    "code": "002371",
+    "industry": "半导体设备",
+    "v21_total": 47,
+    "v21_grade": "D",
+    "v21_moat": 13,
+    "v21_growth": 14,
+    "v21_profit": 11,
+    "v21_valuation": 8,
+    "v21_catalyst": 5,
+    "v21_risk": -4,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术5/5",
+        "资源1/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势4/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率4/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-3",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 70,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "中芯国际",
+    "code": "688981",
+    "industry": "半导体",
+    "v21_total": 41,
+    "v21_grade": "D",
+    "v21_moat": 14,
+    "v21_growth": 13,
+    "v21_profit": 8,
+    "v21_valuation": 5,
+    "v21_catalyst": 5,
+    "v21_risk": -4,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术3/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势4/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE1/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位1/10",
+        "行业2/5",
+        "股回1/5",
+        "匹配1/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-3",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 63,
+    "orig_grade": "C",
+    "pe": 145.0,
+    "pb": 4.87,
+    "roe": 5.0,
+    "dividend_yield": null
+  },
+  {
+    "name": "中国神华",
+    "code": "601088",
+    "industry": "煤炭",
+    "v21_total": 45,
+    "v21_grade": "D",
+    "v21_moat": 13,
+    "v21_growth": 9,
+    "v21_profit": 11,
+    "v21_valuation": 10,
+    "v21_catalyst": 4,
+    "v21_risk": -2,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势2/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报4/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业2/5",
+        "股回4/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 78,
+    "orig_grade": "B",
+    "pe": 17.88,
+    "pb": 2.1,
+    "roe": 13.0,
+    "dividend_yield": 4.22
+  },
+  {
+    "name": "伊利股份",
+    "code": "600887",
+    "industry": "乳制品",
+    "v21_total": 48,
+    "v21_grade": "D",
+    "v21_moat": 13,
+    "v21_growth": 13,
+    "v21_profit": 11,
+    "v21_valuation": 8,
+    "v21_catalyst": 6,
+    "v21_risk": -3,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源2/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势4/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE3/5",
+        "利润率3/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "竞争-3"
+      ]
+    },
+    "orig_score": 76,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "胜宏科技",
+    "code": "300476",
+    "industry": "PCB（印制电路板）",
+    "v21_total": 57,
+    "v21_grade": "C",
+    "v21_moat": 16,
+    "v21_growth": 19,
+    "v21_profit": 15,
+    "v21_valuation": 6,
+    "v21_catalyst": 8,
+    "v21_risk": -7,
+    "v21_details": {
+      "moat": [],
+      "growth": [],
+      "profit": [],
+      "valuation": [],
+      "catalyst": [],
+      "risk": []
+    },
+    "orig_score": 85,
+    "orig_grade": "A",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null,
+    "manual": true
+  },
+  {
+    "name": "万华化学",
+    "code": "600309",
+    "industry": "化工",
+    "v21_total": 45,
+    "v21_grade": "D",
+    "v21_moat": 12,
+    "v21_growth": 11,
+    "v21_profit": 11,
+    "v21_valuation": 9,
+    "v21_catalyst": 6,
+    "v21_risk": -4,
+    "v21_details": {
+      "moat": [
+        "品牌3/5",
+        "成本3/4",
+        "技术3/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势2/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE3/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报3/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业2/5",
+        "股回3/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-3",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 77,
+    "orig_grade": "B",
+    "pe": 18.0,
+    "pb": 4.5,
+    "roe": 19.0,
+    "dividend_yield": 2.75
+  },
+  {
+    "name": "京沪高铁",
+    "code": "601816",
+    "industry": "交通运输",
+    "v21_total": 55,
+    "v21_grade": "C",
+    "v21_moat": 14,
+    "v21_growth": 13,
+    "v21_profit": 14,
+    "v21_valuation": 11,
+    "v21_catalyst": 4,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术4/5",
+        "资源4/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势4/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率4/5",
+        "现金流5/5",
+        "股东回报3/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "竞争-1"
+      ]
+    },
+    "orig_score": 82,
+    "orig_grade": "A",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "京东方A",
+    "code": "000725",
+    "industry": "显示面板",
+    "v21_total": 43,
+    "v21_grade": "D",
+    "v21_moat": 13,
+    "v21_growth": 12,
+    "v21_profit": 8,
+    "v21_valuation": 9,
+    "v21_catalyst": 6,
+    "v21_risk": -5,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势3/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE1/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回2/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "财务-1",
+        "行业-1",
+        "竞争-3"
+      ]
+    },
+    "orig_score": 60,
+    "orig_grade": "C",
+    "pe": 45.0,
+    "pb": 1.6,
+    "roe": 4.5,
+    "dividend_yield": 1.2
+  },
+  {
+    "name": "汇川技术",
+    "code": "300124",
+    "industry": "工业自动化",
+    "v21_total": 50,
+    "v21_grade": "C",
+    "v21_moat": 12,
+    "v21_growth": 14,
+    "v21_profit": 11,
+    "v21_valuation": 11,
+    "v21_catalyst": 6,
+    "v21_risk": -4,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势4/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1",
+        "竞争-3"
+      ]
+    },
+    "orig_score": 79,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "北方稀土",
+    "code": "600111",
+    "industry": "有色金属",
+    "v21_total": 49,
+    "v21_grade": "D",
+    "v21_moat": 15,
+    "v21_growth": 15,
+    "v21_profit": 9,
+    "v21_valuation": 8,
+    "v21_catalyst": 5,
+    "v21_risk": -3,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术2/5",
+        "资源3/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史8/8",
+        "趋势3/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-3"
+      ]
+    },
+    "orig_score": 72,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "盐湖股份",
+    "code": "000792",
+    "industry": "钾肥",
+    "v21_total": 44,
+    "v21_grade": "D",
+    "v21_moat": 9,
+    "v21_growth": 11,
+    "v21_profit": 13,
+    "v21_valuation": 8,
+    "v21_catalyst": 4,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势3/6",
+        "空间2/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率4/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1"
+      ]
+    },
+    "orig_score": 75,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "三一重工",
+    "code": "600031",
+    "industry": "工程机械",
+    "v21_total": 41,
+    "v21_grade": "D",
+    "v21_moat": 11,
+    "v21_growth": 10,
+    "v21_profit": 10,
+    "v21_valuation": 12,
+    "v21_catalyst": 4,
+    "v21_risk": -6,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势3/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率3/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位6/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-3",
+        "竞争-3"
+      ]
+    },
+    "orig_score": 74,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "牧原股份",
+    "code": "002714",
+    "industry": "生猪养殖",
+    "v21_total": 47,
+    "v21_grade": "D",
+    "v21_moat": 11,
+    "v21_growth": 11,
+    "v21_profit": 9,
+    "v21_valuation": 11,
+    "v21_catalyst": 6,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势2/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1"
+      ]
+    },
+    "orig_score": 72,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "科大讯飞",
+    "code": "002230",
+    "industry": "AI",
+    "v21_total": 43,
+    "v21_grade": "D",
+    "v21_moat": 12,
+    "v21_growth": 14,
+    "v21_profit": 8,
+    "v21_valuation": 4,
+    "v21_catalyst": 6,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术3/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势4/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE1/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位1/10",
+        "行业1/5",
+        "股回1/5",
+        "匹配1/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "财务-1"
+      ]
+    },
+    "orig_score": 61,
+    "orig_grade": "C",
+    "pe": 120.0,
+    "pb": 5.7,
+    "roe": 4.92,
+    "dividend_yield": null
+  },
+  {
+    "name": "隆基绿能",
+    "code": "601012",
+    "industry": "光伏",
+    "v21_total": 39,
+    "v21_grade": "E",
+    "v21_moat": 12,
+    "v21_growth": 8,
+    "v21_profit": 9,
+    "v21_valuation": 9,
+    "v21_catalyst": 4,
+    "v21_risk": -3,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术3/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史3/8",
+        "趋势2/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位3/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1",
+        "竞争-2"
+      ]
+    },
+    "orig_score": 58,
+    "orig_grade": "C",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "国电南瑞",
+    "code": "600406",
+    "industry": "电力设备",
+    "v21_total": 43,
+    "v21_grade": "D",
+    "v21_moat": 10,
+    "v21_growth": 12,
+    "v21_profit": 10,
+    "v21_valuation": 8,
+    "v21_catalyst": 5,
+    "v21_risk": -2,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术3/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势4/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报3/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业2/5",
+        "股回3/5",
+        "匹配1/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 77,
+    "orig_grade": "B",
+    "pe": 26.0,
+    "pb": 4.2,
+    "roe": 12.0,
+    "dividend_yield": 1.5
+  },
+  {
+    "name": "华工科技",
+    "code": "000988",
+    "industry": "电子",
+    "v21_total": 44,
+    "v21_grade": "D",
+    "v21_moat": 10,
+    "v21_growth": 15,
+    "v21_profit": 9,
+    "v21_valuation": 10,
+    "v21_catalyst": 7,
+    "v21_risk": -7,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术3/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势5/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位4/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-4",
+        "竞争-3"
+      ]
+    },
+    "orig_score": 73,
+    "orig_grade": "B+",
+    "pe": null,
+    "pb": null,
+    "roe": 13.4,
+    "dividend_yield": null
+  },
+  {
+    "name": "中国建筑",
+    "code": "601668",
+    "industry": "建筑",
+    "v21_total": 54,
+    "v21_grade": "C",
+    "v21_moat": 13,
+    "v21_growth": 8,
+    "v21_profit": 10,
+    "v21_valuation": 20,
+    "v21_catalyst": 4,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌3/5",
+        "成本2/4",
+        "技术2/5",
+        "资源4/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史3/8",
+        "趋势2/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率1/5",
+        "现金流3/5",
+        "股东回报4/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业5/5",
+        "股回4/5",
+        "匹配4/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1"
+      ]
+    },
+    "orig_score": 78,
+    "orig_grade": "B",
+    "pe": 4.6,
+    "pb": 0.5,
+    "roe": 12.0,
+    "dividend_yield": 4.88
+  },
+  {
+    "name": "迈瑞医疗",
+    "code": "300760",
+    "industry": "医疗器械",
+    "v21_total": 43,
+    "v21_grade": "D",
+    "v21_moat": 12,
+    "v21_growth": 10,
+    "v21_profit": 13,
+    "v21_valuation": 11,
+    "v21_catalyst": 4,
+    "v21_risk": -7,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术3/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势2/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率4/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-3",
+        "竞争-3",
+        "业绩下滑-1"
+      ]
+    },
+    "orig_score": 73,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "福耀玻璃",
+    "code": "600660",
+    "industry": "汽车玻璃",
+    "v21_total": 52,
+    "v21_grade": "C",
+    "v21_moat": 12,
+    "v21_growth": 14,
+    "v21_profit": 12,
+    "v21_valuation": 11,
+    "v21_catalyst": 5,
+    "v21_risk": -2,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势4/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率3/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-1",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 82,
+    "orig_grade": "A",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "中国铝业",
+    "code": "601600",
+    "industry": "有色金属",
+    "v21_total": 43,
+    "v21_grade": "D",
+    "v21_moat": 10,
+    "v21_growth": 11,
+    "v21_profit": 10,
+    "v21_valuation": 11,
+    "v21_catalyst": 5,
+    "v21_risk": -4,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势4/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE3/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-4"
+      ]
+    },
+    "orig_score": 75,
+    "orig_grade": "B+",
+    "pe": null,
+    "pb": null,
+    "roe": 16.0,
+    "dividend_yield": null
+  },
+  {
+    "name": "中国石化",
+    "code": "600028",
+    "industry": "石油化工",
+    "v21_total": 54,
+    "v21_grade": "C",
+    "v21_moat": 10,
+    "v21_growth": 11,
+    "v21_profit": 11,
+    "v21_valuation": 22,
+    "v21_catalyst": 4,
+    "v21_risk": -4,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势3/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE1/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报5/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业5/5",
+        "股回5/5",
+        "匹配5/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-3",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 78,
+    "orig_grade": "B",
+    "pe": 13.5,
+    "pb": 0.7,
+    "roe": 9.0,
+    "dividend_yield": 6.5
+  },
+  {
+    "name": "中国移动",
+    "code": "600941",
+    "industry": "通信运营",
+    "v21_total": 53,
+    "v21_grade": "C",
+    "v21_moat": 14,
+    "v21_growth": 10,
+    "v21_profit": 13,
+    "v21_valuation": 11,
+    "v21_catalyst": 5,
+    "v21_risk": 0,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势2/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率4/5",
+        "现金流3/5",
+        "股东回报4/5"
+      ],
+      "valuation": [
+        "分位5/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": []
+    },
+    "orig_score": 81,
+    "orig_grade": "A",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "中国中车",
+    "code": "601766",
+    "industry": "轨道交通装备",
+    "v21_total": 50,
+    "v21_grade": "C",
+    "v21_moat": 10,
+    "v21_growth": 15,
+    "v21_profit": 8,
+    "v21_valuation": 13,
+    "v21_catalyst": 5,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史8/8",
+        "趋势3/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流2/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1"
+      ]
+    },
+    "orig_score": 74,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "中国中免",
+    "code": "601888",
+    "industry": "免税零售",
+    "v21_total": 51,
+    "v21_grade": "C",
+    "v21_moat": 11,
+    "v21_growth": 11,
+    "v21_profit": 10,
+    "v21_valuation": 13,
+    "v21_catalyst": 7,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术2/5",
+        "资源2/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势2/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE1/5",
+        "利润率3/5",
+        "现金流3/5",
+        "股东回报3/5"
+      ],
+      "valuation": [
+        "分位4/10",
+        "行业2/5",
+        "股回3/5",
+        "匹配4/5"
+      ],
+      "catalyst": [
+        "明确5/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "业绩下滑-1"
+      ]
+    },
+    "orig_score": 72,
+    "orig_grade": "B",
+    "pe": 30.0,
+    "pb": 3.0,
+    "roe": 8.5,
+    "dividend_yield": 2.1
+  },
+  {
+    "name": "分众传媒",
+    "code": "002027",
+    "industry": "传媒",
+    "v21_total": 60,
+    "v21_grade": "B",
+    "v21_moat": 16,
+    "v21_growth": 11,
+    "v21_profit": 15,
+    "v21_valuation": 13,
+    "v21_catalyst": 5,
+    "v21_risk": 0,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本3/4",
+        "技术4/5",
+        "资源1/4",
+        "转换4/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势3/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率5/5",
+        "现金流3/5",
+        "股东回报3/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": []
+    },
+    "orig_score": 79,
+    "orig_grade": "B+",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "航发动力",
+    "code": "600893",
+    "industry": "航空发动机",
+    "v21_total": 52,
+    "v21_grade": "C",
+    "v21_moat": 13,
+    "v21_growth": 16,
+    "v21_profit": 9,
+    "v21_valuation": 8,
+    "v21_catalyst": 7,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术5/5",
+        "资源1/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史8/8",
+        "趋势3/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-1"
+      ]
+    },
+    "orig_score": 61,
+    "orig_grade": "C",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "光启技术",
+    "code": "002625",
+    "industry": "超材料",
+    "v21_total": 57,
+    "v21_grade": "C",
+    "v21_moat": 16,
+    "v21_growth": 15,
+    "v21_profit": 10,
+    "v21_valuation": 10,
+    "v21_catalyst": 7,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术5/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史7/8",
+        "趋势3/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率4/5",
+        "现金流2/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位4/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "财务-1"
+      ]
+    },
+    "orig_score": 83,
+    "orig_grade": "A",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "宝钢股份",
+    "code": "600019",
+    "industry": "钢铁",
+    "v21_total": 54,
+    "v21_grade": "C",
+    "v21_moat": 10,
+    "v21_growth": 11,
+    "v21_profit": 10,
+    "v21_valuation": 22,
+    "v21_catalyst": 5,
+    "v21_risk": -4,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势2/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE1/5",
+        "利润率1/5",
+        "现金流3/5",
+        "股东回报5/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业5/5",
+        "股回5/5",
+        "匹配5/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-3",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 76,
+    "orig_grade": "B",
+    "pe": 14.0,
+    "pb": 0.68,
+    "roe": 5.0,
+    "dividend_yield": 5.2
+  },
+  {
+    "name": "海螺水泥",
+    "code": "600585",
+    "industry": "水泥",
+    "v21_total": 49,
+    "v21_grade": "D",
+    "v21_moat": 11,
+    "v21_growth": 8,
+    "v21_profit": 9,
+    "v21_valuation": 18,
+    "v21_catalyst": 4,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌3/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势2/6",
+        "空间2/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位9/10",
+        "行业3/5",
+        "股回4/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "行业-1"
+      ]
+    },
+    "orig_score": 77,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "紫光股份",
+    "code": "000938",
+    "industry": "ICT",
+    "v21_total": 45,
+    "v21_grade": "D",
+    "v21_moat": 12,
+    "v21_growth": 12,
+    "v21_profit": 9,
+    "v21_valuation": 8,
+    "v21_catalyst": 6,
+    "v21_risk": -2,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源2/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势2/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率3/5"
+      ],
+      "risk": [
+        "行业-1",
+        "竞争-1"
+      ]
+    },
+    "orig_score": 65,
+    "orig_grade": "C",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "片仔癀",
+    "code": "600436",
+    "industry": "中药",
+    "v21_total": 51,
+    "v21_grade": "C",
+    "v21_moat": 17,
+    "v21_growth": 12,
+    "v21_profit": 11,
+    "v21_valuation": 8,
+    "v21_catalyst": 4,
+    "v21_risk": -1,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本2/4",
+        "技术3/5",
+        "资源4/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史5/8",
+        "趋势2/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE4/5",
+        "利润率3/5",
+        "现金流2/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确2/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "财务-1"
+      ]
+    },
+    "orig_score": 72,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "爱尔眼科",
+    "code": "300015",
+    "industry": "眼科医疗",
+    "v21_total": 56,
+    "v21_grade": "C",
+    "v21_moat": 14,
+    "v21_growth": 11,
+    "v21_profit": 13,
+    "v21_valuation": 15,
+    "v21_catalyst": 6,
+    "v21_risk": -3,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术2/5",
+        "资源1/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势2/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率4/5",
+        "现金流5/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配4/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "竞争-1",
+        "增速放缓-1",
+        "业绩下滑-1"
+      ]
+    },
+    "orig_score": 74,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "东鹏饮料",
+    "code": "605499",
+    "industry": "食品饮料",
+    "v21_total": 57,
+    "v21_grade": "C",
+    "v21_moat": 14,
+    "v21_growth": 14,
+    "v21_profit": 14,
+    "v21_valuation": 8,
+    "v21_catalyst": 7,
+    "v21_risk": 0,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本3/4",
+        "技术2/5",
+        "资源2/4",
+        "转换1/5",
+        "总结2/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势5/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE5/5",
+        "利润率4/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率3/5"
+      ],
+      "risk": []
+    },
+    "orig_score": 82,
+    "orig_grade": "A",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "保利发展",
+    "code": "600048",
+    "industry": "房地产",
+    "v21_total": 52,
+    "v21_grade": "C",
+    "v21_moat": 14,
+    "v21_growth": 14,
+    "v21_profit": 9,
+    "v21_valuation": 15,
+    "v21_catalyst": 6,
+    "v21_risk": -6,
+    "v21_details": {
+      "moat": [
+        "品牌4/5",
+        "成本2/4",
+        "技术2/5",
+        "资源4/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史7/8",
+        "趋势2/6",
+        "空间5/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流3/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位7/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配4/5"
+      ],
+      "catalyst": [
+        "明确4/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "财务-1",
+        "行业-4",
+        "业绩下滑-1"
+      ]
+    },
+    "orig_score": 71,
+    "orig_grade": "B",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "小商品城",
+    "code": "600415",
+    "industry": "商贸零售",
+    "v21_total": 63,
+    "v21_grade": "B",
+    "v21_moat": 21,
+    "v21_growth": 14,
+    "v21_profit": 13,
+    "v21_valuation": 12,
+    "v21_catalyst": 5,
+    "v21_risk": -2,
+    "v21_details": {
+      "moat": [
+        "品牌5/5",
+        "成本3/4",
+        "技术4/5",
+        "资源4/4",
+        "转换4/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史6/8",
+        "趋势4/6",
+        "空间4/6"
+      ],
+      "profit": [
+        "ROE3/5",
+        "利润率3/5",
+        "现金流5/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位6/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "竞争-2"
+      ]
+    },
+    "orig_score": 81,
+    "orig_grade": "A",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  },
+  {
+    "name": "中油资本",
+    "code": "000617",
+    "industry": "非银金融",
+    "v21_total": 32,
+    "v21_grade": "E",
+    "v21_moat": 10,
+    "v21_growth": 9,
+    "v21_profit": 7,
+    "v21_valuation": 8,
+    "v21_catalyst": 5,
+    "v21_risk": -7,
+    "v21_details": {
+      "moat": [
+        "品牌2/5",
+        "成本2/4",
+        "技术2/5",
+        "资源2/4",
+        "转换1/5",
+        "总结1/2"
+      ],
+      "growth": [
+        "历史4/8",
+        "趋势2/6",
+        "空间3/6"
+      ],
+      "profit": [
+        "ROE2/5",
+        "利润率2/5",
+        "现金流1/5",
+        "股东回报2/5"
+      ],
+      "valuation": [
+        "分位2/10",
+        "行业3/5",
+        "股回1/5",
+        "匹配2/5"
+      ],
+      "catalyst": [
+        "明确3/5",
+        "概率2/5"
+      ],
+      "risk": [
+        "财务-4",
+        "行业-1",
+        "竞争-1",
+        "业绩下滑-1"
+      ]
+    },
+    "orig_score": 64,
+    "orig_grade": "C",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "dividend_yield": null
+  }
+]
