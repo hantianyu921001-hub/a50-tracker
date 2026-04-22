@@ -187,6 +187,31 @@ function V22Rules() {
         <p className="text-center text-gray-700">六维度评分 + 风险扣分，<span className="font-bold">总分100分</span></p>
       </div>
 
+      <div className="bg-white rounded-lg shadow-sm border p-6 mb-6">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">二、当前系统实现口径：通用主干 + 行业增强</h2>
+        <div className="space-y-4 text-sm text-gray-700 leading-7">
+          <p>
+            当前系统先为所有公司计算一版 <span className="font-semibold text-gray-900">通用主干评分</span>，
+            再按行业叠加 <span className="font-semibold text-gray-900">行业增强评分</span>。银行是第一个完整接通的行业增强插件，
+            因此银行股的最终分数不是“只看银行规则”，而是“通用主干 + 银行增强”的加权混合结果。
+          </p>
+          <div className="rounded-lg border border-blue-100 bg-blue-50 p-4">
+            <div className="font-medium text-blue-900 mb-2">正向维度（护城河 / 成长性 / 盈利质量 / 估值 / 催化剂）</div>
+            <div className="font-mono text-blue-800">最终维度分 = 通用分 × 40% + 行业增强分 × 60%</div>
+            <div className="mt-2 text-blue-900">计算后再按维度上限截断：护城河 25、成长 20、盈利 20、估值 25、催化 10。</div>
+          </div>
+          <div className="rounded-lg border border-rose-100 bg-rose-50 p-4">
+            <div className="font-medium text-rose-900 mb-2">风险维度（扣分项）</div>
+            <div className="font-mono text-rose-800">最终风险分 = 通用风险 × 35% + 行业增强风险 × 65%</div>
+            <div className="mt-2 text-rose-900">最终限制在 -15 到 0 之间，避免风险扣分异常放大。</div>
+          </div>
+          <p>
+            详情页里如果看到 <span className="font-medium">“通用：...”</span> 和 <span className="font-medium">“银行增强：...”</span> 两类子项，
+            说明系统正在同时展示主干判断和行业增强判断。当前最终分数采用加权混合，不是简单相加，也不是二选一。
+          </p>
+        </div>
+      </div>
+
       {/* ===== 维度一：护城河 ===== */}
       <div className="bg-white rounded-lg shadow-sm border p-6 mb-6">
         <h3 className="text-lg font-bold text-gray-900 mb-4">维度一：护城河（0-25分，5子项×5分）</h3>
@@ -737,8 +762,6 @@ function V22Rules() {
 }
 
 export default function RatingRules() {
-  const { isV22 } = useScoring()
-
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <div className="mb-6">
@@ -750,12 +773,12 @@ export default function RatingRules() {
         </Link>
       </div>
 
-      {isV22 ? <V22Rules /> : <V20Rules />}
+      <V22Rules />
 
       <div className="bg-gray-50 rounded-lg border p-4 text-sm text-gray-600">
         <p className="font-medium mb-2">免责声明</p>
         <p>本评分系统仅供参考，不构成投资建议。投资有风险，入市需谨慎。请根据自身风险承受能力做出投资决策。</p>
-        <p className="mt-2 text-xs">模型版本：{isV22 ? 'v2.2（执行增强版）' : 'v2.0（修正版）'} | {isV22 ? '创建日期：2026-04-10' : '创建日期：2026-04-01'}</p>
+        <p className="mt-2 text-xs">模型版本：v2.2（执行增强版） | 创建日期：2026-04-10</p>
       </div>
     </div>
   )

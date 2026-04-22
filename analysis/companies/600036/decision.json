@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "symbol": "600036",
+    "name": "招商银行",
+    "updatedAt": "2026-04-21",
+    "lastReviewedAt": "",
+    "reviewDeadline": "2026-05-05",
+    "owner": "system",
+    "version": "external-init-v1"
+  },
+  "review": {
+    "reviewStatus": "needs_review",
+    "decisionAction": "watch",
+    "decisionReason": "自动分析初始化：当前总分 49，评级 C；仍有待补字段：BVPS、同业估值对比",
+    "reviewNotes": "",
+    "reviewer": "",
+    "reviewedAt": "",
+    "reviewCount": 0
+  },
+  "portfolio": {
+    "portfolioPosition": 0,
+    "targetPosition": "",
+    "maxPosition": "",
+    "minPosition": "",
+    "positionType": "candidate",
+    "rebalanceAction": "watch"
+  },
+  "checklist": {},
+  "signals": {
+    "signalStatus": "needs_review",
+    "signalAgeDays": 0,
+    "staleReason": "",
+    "reviewPriority": "medium",
+    "constraintHit": "",
+    "dataGaps": [
+      "BVPS",
+      "同业估值对比"
+    ],
+    "checklistAutoStatus": "review",
+    "checklistAutoScore": 49,
+    "checklistAutoReasons": [
+      "BVPS",
+      "同业估值对比"
+    ]
+  },
+  "audit": {
+    "createdAt": "2026-04-21T09:52:34.896Z",
+    "history": [
+      {
+        "timestamp": "2026-04-21T09:52:34.896Z",
+        "action": "auto_init",
+        "trigger": "external_analysis",
+        "reviewStatus": "needs_review",
+        "decisionAction": "watch"
+      }
+    ]
+  }
+}

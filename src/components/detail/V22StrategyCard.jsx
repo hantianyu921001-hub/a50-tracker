@@ -1,9 +1,9 @@
-// v2.2 评级到操作建议的映射
+// v2.2 评级到操作建议的映射（仅作 fallback）
 const GRADE_STRATEGY = {
-  'S': { action: '极度低估', desc: '安全边际极高，可重仓布局', position: '重仓（15-20%）', holding: '长期持有（3-5年）', color: 'red' },
-  'A+': { action: '强烈买入', desc: '显著低估，建议积极建仓', position: '加重仓（10-15%）', holding: '中长期持有（2-3年）', color: 'rose' },
-  'A': { action: '买入', desc: '合理偏低，可标准建仓', position: '标准仓位（8-10%）', holding: '中期持有（1-2年）', color: 'orange' },
-  'B+': { action: '偏强持有', desc: '估值适中偏合理，持有为主', position: '标准仓位（5-8%）', holding: '持有等待催化剂', color: 'lime' },
+  'S': { action: '极度低估', desc: '安全边际极高，可重仓布局', position: '重仓（15-20%）', holding: '长期持有3-5年', color: 'red' },
+  'A+': { action: '强烈买入', desc: '显著低估，建议积极建仓', position: '加重仓（10-15%）', holding: '中长期持有2-3年', color: 'rose' },
+  'A': { action: '买入', desc: '合理偏低，可标准建仓', position: '标准仓位（8-10%）', holding: '中期持有1-2年', color: 'orange' },
+  'B+': { action: '偏强持有', desc: '估值适中偏合理，持有为主', position: '标准仓位（8-10%）', holding: '中期持有2-3年，等待催化剂', color: 'lime' },
   'B': { action: '持有', desc: '估值合理，持有等待催化', position: '轻仓（3-5%）', holding: '持有观察', color: 'green' },
   'C': { action: '观望', desc: '估值偏高或不确定性大，等待更好时机', position: '观望或极轻仓（0-3%）', holding: '等待回调', color: 'yellow' },
   'D': { action: '规避', desc: '估值过高或风险较大，不建议介入', position: '不建议建仓', holding: '—', color: 'gray' },
@@ -19,103 +19,79 @@ const colorMap = {
   gray: { bg: 'bg-gray-50', border: 'border-gray-200', title: 'text-gray-700', desc: 'text-gray-600', badge: 'bg-gray-500 text-white' },
 }
 
-export default function V22StrategyCard({ grade, score, v22Details }) {
+// 动作标签映射
+const ACTION_LABELS = {
+  buy: { text: '买入', color: 'bg-green-500 text-white' },
+  add: { text: '加仓', color: 'bg-blue-500 text-white' },
+  hold: { text: '持有', color: 'bg-lime-500 text-white' },
+  trim: { text: '减仓', color: 'bg-yellow-500 text-white' },
+  watch: { text: '观察', color: 'bg-gray-500 text-white' },
+  avoid: { text: '规避', color: 'bg-red-500 text-white' },
+}
+
+export default function V22StrategyCard({ company, grade, score }) {
   const strategy = GRADE_STRATEGY[grade] || GRADE_STRATEGY['D']
   const c = colorMap[strategy.color]
 
-  // 解析单个子项（兼容对象和字符串格式）
-  const parseDetailItem = (item) => {
-    if (!item) return null
-    if (typeof item === 'object' && item.name !== undefined) {
-      return { name: item.name, score: item.score ?? 0, max: item.max ?? 5 }
-    }
-    if (typeof item === 'string') {
-      const match = item.match(/^(.+?)(-?\d+)\/(\d+)$/)
-      if (!match) return null
-      return { name: match[1], score: parseInt(match[2]), max: parseInt(match[3]) }
-    }
-    return null
-  }
+  // 人工决策优先逻辑
+  const hasDecision = company.decision_action && company.decision_action !== ''
+  const isStale = company.v22_signal_status === 'stale'
+  const hasDataGaps = company.v22_data_gaps?.length > 0
+  const hasConstraint = company.v22_constraint
 
-  // 从 v22_details 解析出各维度强弱分析
-  const getDimSummary = (dimKey, maxScore) => {
-    const items = v22Details?.[dimKey]
-    if (!items || items.length === 0) return null
-    const parsed = items.map(parseDetailItem).filter(Boolean)
-    
-    const strong = parsed.filter(p => p.score / p.max >= 0.8)
-    const weak = parsed.filter(p => p.score / p.max <= 0.3)
-    return { strong, weak, parsed }
-  }
-
-  const dimAnalysis = {
-    moat: getDimSummary('moat', 25),
-    growth: getDimSummary('growth', 20),
-    profit: getDimSummary('profit', 20),
-    valuation: getDimSummary('valuation', 25),
-    catalyst: getDimSummary('catalyst', 10),
-  }
+  // 获取动作标签
+  const getActionInfo = (action) => ACTION_LABELS[action] || { text: action, color: 'bg-gray-500 text-white' }
 
   return (
-    <div className="p-6 border-b border-gray-200">
-      <h2 className="text-lg font-semibold text-gray-900 mb-4">建仓策略</h2>
+    <div>
+      {/* 执行状态警告 */}
+      {(isStale || hasDataGaps || hasConstraint) && (
+        <div className="mb-4 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+          <div className="flex items-center gap-2 text-amber-800 text-sm">
+            <span>⚠️</span>
+            <span className="font-medium">风险提示：</span>
+            {isStale && <span>信号已过期（{company.v22_signal_age_days}天），建议复核</span>}
+            {hasDataGaps && <span>关键数据缺失</span>}
+            {hasConstraint && <span>评级受约束规则限制</span>}
+          </div>
+        </div>
+      )}
 
       {/* v2.2 操作建议 */}
       <div className={`${c.bg} rounded-lg p-4 border ${c.border} mb-4`}>
         <div className="flex items-center gap-3 mb-2">
-          <span className={`inline-flex items-center px-3 py-1 rounded-lg text-sm font-bold ${c.badge}`}>
-            {grade}
-          </span>
-          <span className={`text-xl font-bold ${c.title}`}>{strategy.action}</span>
+          {/* 优先显示人工决策 */}
+          {hasDecision ? (
+            <>
+              <span className={`inline-flex items-center px-3 py-1 rounded-lg text-sm font-bold ${getActionInfo(company.decision_action).color}`}>
+                {getActionInfo(company.decision_action).text}
+              </span>
+              <span className={`text-xl font-bold ${c.title}`}>{company.decision_reason || strategy.action}</span>
+            </>
+          ) : (
+            <>
+              <span className={`inline-flex items-center px-3 py-1 rounded-lg text-sm font-bold ${c.badge}`}>
+                {grade}
+              </span>
+              <span className={`text-xl font-bold ${c.title}`}>{strategy.action}</span>
+            </>
+          )}
         </div>
-        <p className={`text-sm ${c.desc} mb-3`}>{strategy.desc}</p>
-        <div className="grid grid-cols-3 gap-3">
+        
+        <p className={`text-sm ${c.desc}`}>{hasDecision ? '' : strategy.desc}</p>
+        
+        <div className="grid grid-cols-2 gap-3 mt-3">
           <div className="bg-white/60 rounded-md p-2">
             <div className="text-xs text-gray-500">建议仓位</div>
-            <div className="text-sm font-medium text-gray-900">{strategy.position}</div>
+            <div className="text-sm font-medium text-gray-900">
+              {company.decision_target_position || strategy.position}
+            </div>
           </div>
           <div className="bg-white/60 rounded-md p-2">
-            <div className="text-xs text-gray-500">持有策略</div>
+            <div className="text-xs text-gray-500">持有周期</div>
             <div className="text-sm font-medium text-gray-900">{strategy.holding}</div>
           </div>
-          <div className="bg-white/60 rounded-md p-2">
-            <div className="text-xs text-gray-500">v2.2总分</div>
-            <div className="text-sm font-medium text-gray-900">{score}/100</div>
-          </div>
         </div>
-      </div>
-
-      {/* 维度强弱分析 */}
-      <div className="space-y-3">
-        <h3 className="text-sm font-medium text-gray-700">各维度强弱分析</h3>
-        {Object.entries(dimAnalysis).map(([key, analysis]) => {
-          if (!analysis) return null
-          const dimNames = { moat: '护城河', growth: '成长性', profit: '盈利质量', valuation: '估值安全', catalyst: '催化剂' }
-          return (
-            <div key={key} className="bg-gray-50 rounded-lg p-3 border border-gray-100">
-              <div className="text-xs font-medium text-gray-600 mb-2">{dimNames[key]}</div>
-              <div className="flex flex-wrap gap-1.5">
-                {analysis.parsed.map((item, i) => {
-                  const ratio = item.score / item.max
-                  const isStrong = ratio >= 0.8
-                  const isWeak = ratio <= 0.3
-                  return (
-                    <span
-                      key={i}
-                      className={`inline-flex items-center px-2 py-0.5 rounded text-xs ${
-                        isStrong ? 'bg-green-100 text-green-800' :
-                        isWeak ? 'bg-red-100 text-red-800' :
-                        'bg-blue-100 text-blue-800'
-                      }`}
-                    >
-                      {item.name}{item.score}/{item.max}
-                    </span>
-                  )
-                })}
-              </div>
-            </div>
-          )
-        })}
       </div>
     </div>
   )

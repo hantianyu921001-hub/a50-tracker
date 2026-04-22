@@ -1,0 +1,19 @@
+[
+  {
+    "code": "600036",
+    "name": "招商银行",
+    "industry": "银行",
+    "score": 67.6,
+    "grade": "B+",
+    "signal_status": "fresh",
+    "signal_age_days": 0,
+    "stale_reason": "",
+    "review_priority": "low",
+    "checklist_auto_status": "pass",
+    "decision_review_status": "needs_review",
+    "decision_action": "watch",
+    "isActionable": false,
+    "last_update": "2026-04-22T11:38:47.043933",
+    "archive_path": "analysis/companies/600036/current.json"
+  }
+]

@@ -1,9 +1,24 @@
 export default function ValuationIndicators({ pe, pb, roe, dy }) {
+  const normalizePercentMetric = (value) => {
+    if (value === null || value === undefined || Number.isNaN(Number(value))) return null
+    const num = Number(value)
+    return num <= 1 ? num * 100 : num
+  }
+
+  const formatMetricValue = (value, unit) => {
+    if (value === null || value === undefined) return null
+    if (unit === '%') return normalizePercentMetric(value)?.toFixed(2)
+    return Number(value).toFixed(2)
+  }
+
+  const roePct = normalizePercentMetric(roe)
+  const dyPct = normalizePercentMetric(dy)
+
   const indicators = [
     { name: 'PE', value: pe, unit: '倍', level: pe !== null ? (pe < 15 ? '低' : pe < 30 ? '中' : '高') : null, color: pe !== null ? (pe < 15 ? 'green' : pe < 30 ? 'blue' : 'red') : 'gray' },
     { name: 'PB', value: pb, unit: '倍', level: pb !== null ? (pb < 1 ? '破净' : pb < 3 ? '低' : pb < 5 ? '中' : '高') : null, color: pb !== null ? (pb < 1 ? 'green' : pb < 3 ? 'blue' : pb < 5 ? 'yellow' : 'red') : 'gray' },
-    { name: 'ROE', value: roe, unit: '%', level: roe !== null ? (roe >= 15 ? '优' : roe >= 10 ? '良' : roe >= 5 ? '中' : '差') : null, color: roe !== null ? (roe >= 15 ? 'green' : roe >= 10 ? 'blue' : roe >= 5 ? 'yellow' : 'red') : 'gray' },
-    { name: '股息率', value: dy, unit: '%', level: dy !== null ? (dy >= 4 ? '高' : dy >= 2 ? '中' : '低') : null, color: dy !== null ? (dy >= 4 ? 'green' : dy >= 2 ? 'blue' : 'yellow') : 'gray' },
+    { name: 'ROE', value: roePct, unit: '%', level: roePct !== null ? (roePct >= 15 ? '优' : roePct >= 10 ? '良' : roePct >= 5 ? '中' : '差') : null, color: roePct !== null ? (roePct >= 15 ? 'green' : roePct >= 10 ? 'blue' : roePct >= 5 ? 'yellow' : 'red') : 'gray' },
+    { name: '股息率', value: dyPct, unit: '%', level: dyPct !== null ? (dyPct >= 4 ? '高' : dyPct >= 2 ? '中' : '低') : null, color: dyPct !== null ? (dyPct >= 4 ? 'green' : dyPct >= 2 ? 'blue' : 'yellow') : 'gray' },
   ]
 
   const levelColors = {
@@ -34,7 +49,7 @@ export default function ValuationIndicators({ pe, pb, roe, dy }) {
               </div>
               {hasData ? (
                 <div className={`text-xl font-bold ${c.text}`}>
-                  {ind.value}<span className="text-sm font-normal ml-0.5">{ind.unit}</span>
+                  {formatMetricValue(ind.value, ind.unit)}<span className="text-sm font-normal ml-0.5">{ind.unit}</span>
                 </div>
               ) : (
                 <div className="text-sm text-gray-400 italic">暂无数据</div>

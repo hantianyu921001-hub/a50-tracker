@@ -2,24 +2,16 @@ import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useScoring } from '../context/ScoringContext'
 
-// SVG雷达图组件
-function RadarChart({ industry, overall, isV22 }) {
-  const dims = isV22
-    ? [
-        { label: '护城河', iKey: 'avgMoat', oKey: 'moat', max: 25 },
-        { label: '成长性', iKey: 'avgGrowth', oKey: 'growth', max: 20 },
-        { label: '盈利', iKey: 'avgProfit', oKey: 'profit', max: 20 },
-        { label: '估值', iKey: 'avgValuation', oKey: 'valuation', max: 25 },
-        { label: '催化', iKey: 'avgCatalyst', oKey: 'catalyst', max: 10 },
-        { label: '风险', iKey: 'avgRisk', oKey: 'risk', max: 15 },
-      ]
-    : [
-        { label: '护城河', iKey: 'avgMoat', oKey: 'moat', max: 100 },
-        { label: '成长性', iKey: 'avgGrowth', oKey: 'growth', max: 100 },
-        { label: '盈利质量', iKey: 'avgProfit', oKey: 'profit', max: 100 },
-        { label: '估值', iKey: 'avgValuation', oKey: 'valuation', max: 100 },
-        { label: '催化剂', iKey: 'avgCatalyst', oKey: 'catalyst', max: 100 },
-      ]
+// SVG雷达图组件 - 统一使用v2.2六维模型
+function RadarChart({ industry, overall }) {
+  const dims = [
+    { label: '护城河', iKey: 'avgMoat', oKey: 'moat', max: 25 },
+    { label: '成长性', iKey: 'avgGrowth', oKey: 'growth', max: 20 },
+    { label: '盈利', iKey: 'avgProfit', oKey: 'profit', max: 20 },
+    { label: '估值', iKey: 'avgValuation', oKey: 'valuation', max: 25 },
+    { label: '催化', iKey: 'avgCatalyst', oKey: 'catalyst', max: 10 },
+    { label: '风险', iKey: 'avgRisk', oKey: 'risk', max: 15 },
+  ]
 
   const numDims = dims.length
   const cx = 150, cy = 120, r = 90
@@ -89,7 +81,7 @@ function RadarChart({ industry, overall, isV22 }) {
 }
 
 export default function IndustryPage() {
-  const { companies, isV22, getTotalScore, getGrade, getGradeColor, getScoreColor, getScore } = useScoring()
+  const { companies, getTotalScore, getGrade, getGradeColor, getScoreColor, getScore } = useScoring()
   const [expandedIndustry, setExpandedIndustry] = useState(null)
 
   // 按申万一级行业分组
@@ -108,10 +100,10 @@ export default function IndustryPage() {
           : 0
         const avgMoat = analyzed.length > 0 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, 'moat'), 0) / analyzed.length) : 0
         const avgGrowth = analyzed.length > 0 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, 'growth'), 0) / analyzed.length) : 0
-        const avgProfit = analyzed.length > 0 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, isV22 ? 'profit' : 'profitability'), 0) / analyzed.length) : 0
+        const avgProfit = analyzed.length > 0 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, 'profit'), 0) / analyzed.length) : 0
         const avgValuation = analyzed.length > 0 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, 'valuation'), 0) / analyzed.length) : 0
         const avgCatalyst = analyzed.length > 0 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, 'catalyst'), 0) / analyzed.length) : 0
-        const avgRisk = isV22 && analyzed.length > 0 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, 'risk'), 0) / analyzed.length) : 0
+        const avgRisk = analyzed.length > 0 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, 'risk'), 0) / analyzed.length) : 0
         return {
           name,
           companies: comps.sort((a, b) => getTotalScore(b) - getTotalScore(a)),
@@ -122,7 +114,7 @@ export default function IndustryPage() {
         }
       })
       .sort((a, b) => b.count - a.count || b.avgScore - a.avgScore)
-  }, [companies, isV22, getTotalScore, getScore])
+  }, [companies, getTotalScore, getScore])
 
   // 整体均值
   const overallAvg = useMemo(() => {
@@ -131,12 +123,12 @@ export default function IndustryPage() {
     return {
       moat: Math.round(analyzed.reduce((s, c) => s + getScore(c, 'moat'), 0) / analyzed.length),
       growth: Math.round(analyzed.reduce((s, c) => s + getScore(c, 'growth'), 0) / analyzed.length),
-      profit: Math.round(analyzed.reduce((s, c) => s + getScore(c, isV22 ? 'profit' : 'profitability'), 0) / analyzed.length),
+      profit: Math.round(analyzed.reduce((s, c) => s + getScore(c, 'profit'), 0) / analyzed.length),
       valuation: Math.round(analyzed.reduce((s, c) => s + getScore(c, 'valuation'), 0) / analyzed.length),
       catalyst: Math.round(analyzed.reduce((s, c) => s + getScore(c, 'catalyst'), 0) / analyzed.length),
-      risk: isV22 ? Math.round(analyzed.reduce((s, c) => s + getScore(c, 'risk'), 0) / analyzed.length) : 0,
+      risk: Math.round(analyzed.reduce((s, c) => s + getScore(c, 'risk'), 0) / analyzed.length),
     }
-  }, [companies, isV22, getScore])
+  }, [companies, getScore])
 
   const getIndustryBg = (count) => {
     if (count >= 4) return 'bg-blue-50 border-blue-200 hover:border-blue-400'
@@ -145,29 +137,21 @@ export default function IndustryPage() {
     return 'bg-gray-50 border-gray-200 hover:border-gray-400'
   }
 
-  // 表格列
-  const dimColumns = isV22
-    ? [
-        { key: 'moat', label: '护城河', max: 25 },
-        { key: 'growth', label: '成长性', max: 20 },
-        { key: 'profit', label: '盈利', max: 20 },
-        { key: 'valuation', label: '估值', max: 25 },
-        { key: 'catalyst', label: '催化', max: 10 },
-        { key: 'risk', label: '风险', max: 0 },
-      ]
-    : [
-        { key: 'moat', label: '护城河', max: 100 },
-        { key: 'profitability', label: '盈利质量', max: 100 },
-        { key: 'growth', label: '成长性', max: 100 },
-        { key: 'valuation', label: '估值', max: 100 },
-        { key: 'catalyst', label: '催化剂', max: 100 },
-      ]
+  // 表格列 - v2.2六维模型
+  const dimColumns = [
+    { key: 'moat', label: '护城河', max: 25 },
+    { key: 'growth', label: '成长性', max: 20 },
+    { key: 'profit', label: '盈利', max: 20 },
+    { key: 'valuation', label: '估值', max: 25 },
+    { key: 'catalyst', label: '催化', max: 10 },
+    { key: 'risk', label: '风险', max: 0 },
+  ]
 
   return (
     <div>
       <div className="mb-6">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">行业分布</h2>
-        <p className="text-gray-600">全部公司按申万一级行业分类对比（共{industryGroups.length}个行业，{isV22 ? 'v2.2' : 'v2.0'}评分）</p>
+        <p className="text-gray-600">全部公司按申万一级行业分类对比（共{industryGroups.length}个行业，v2.2评分）</p>
       </div>
 
       <div className="grid grid-cols-15 gap-1.5 mb-6">
@@ -260,7 +244,7 @@ export default function IndustryPage() {
               </div>
 
               <div className="flex justify-center items-start">
-                <RadarChart industry={group} overall={overallAvg} isV22={isV22} />
+                <RadarChart industry={group} overall={overallAvg} />
               </div>
             </div>
           </div>

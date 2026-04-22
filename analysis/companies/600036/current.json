@@ -1,0 +1,690 @@
+{
+  "meta": {
+    "code": "600036",
+    "name": "招商银行",
+    "industry": "银行",
+    "last_update": "2026-04-22T11:38:47.043933",
+    "source_version": "external-bank-v1",
+    "updated_at": "2026-04-22T03:39:44.810Z",
+    "trigger": "manual_analysis",
+    "trigger_reason": "admission-gate-check-600036"
+  },
+  "legacy": {
+    "code": "600036",
+    "name": "招商银行",
+    "industry": "银行",
+    "swIndustry": "银行",
+    "status": "analyzed",
+    "tags": [
+      "外部数据映射",
+      "自动分析"
+    ],
+    "lastUpdate": "2026-04-22T11:38:47.043933"
+  },
+  "v22": null,
+  "external_validation": {
+    "symbol": "600036",
+    "analysis_type": "bank",
+    "fetched_at": "2026-04-22T11:38:47.043933",
+    "externalData": {
+      "company": {
+        "symbol": "600036",
+        "name": "招商银行",
+        "industry": "银行",
+        "bank_type": "股份行",
+        "concept": "金融服务、银行",
+        "listing_date": "2002-04-09",
+        "company_profile": "招商银行股份有限公司于1987年在深圳创建,是中国境内第一家完全由企业法人持股的股份制商业银行,成立38年来逐步发展成为沪港两地上市,拥有商业银行、金融租赁、基金管理、人寿保险、境外投行、消费金融、理财子公司等金融牌照的银行集团。2025年,招商银行在英国《银行家》杂志发布的“全球银行1000强”榜单中,按照一级资本排名升至第8位;在BrandFinance发布的“全球银行品牌价值500强”榜单中位列第10位;连续14年进入《财富》世界500强榜单;明晟ESG评级为AAA级,处于全球同业领先水平;在《亚洲银行家》年度评选中,荣获中国最佳零售银行、中国最佳财富管理银行等12个奖项。成立以来,招商银行始终坚持服务立行、创新驱动、科技兴行、人才强行,以自身转型发展助力社会经济高质量发展,全力服务居民和企业客户财富增长、资产安全、资金融通。2025年,招商银行深入推进价值银行战略,持续打造“严格管理、守正创新”双轮驱动的高质量发展新模式,锻造硬实力,修炼软实力,加快推进“国际化、综合化、差异化、数智化”转型,保持了“质量、效益、规模、结构”协调发展,市场竞争力进一步增强。招商银行坚持错位竞争、差异化发展,深入构建“以零售为主体、四大板块均衡协同发展”的业务格局。投行与金融市场竞争力不断增强,并购贷款、债券承销、票据、对客交易、投资交易等细分业务位居市场前列。财富管理与资产管理能力不断提升,“招商银行TREE资产配置”服务客户超千万户,均位居市场前列。加快推进国际化综合化发展,完善跨境金融服务体系,持续提升机构、业务、人才、管理国际化水平,更好满足中资企业“走出去”和居民财富全球配置对金融服务的需求;招银理财、招商基金、招银金融租赁、招联消费金融等子公司均跻身行业头部,发挥多牌照优势,为客户提供综合化、一体化、全周期服务。坚持守正创新、深化科技兴行,秉持“AIFirst”理念,深入探索“AI+金融”,以科技创新驱动产品、服务、业务、模式、管理全方位创新,加快从“线上招行”迈向“数智招行”。面向未来,招商银行将坚持与国家发展同向而行,与时代脉搏同频共振,坚定不移打造价值银行,努力为客户、员工、股东、合作伙伴和社会创造更大价值,在服务实体经济和民生福祉中展现更大作为,为中国式现代化和金融强国建设贡献更大力量。",
+        "main_business": "向客户提供各种批发及零售银行产品和服务，亦自营及代客进行资金业务。",
+        "product_type": "零售金融业务、批发金融业务、其他业务",
+        "product_name": "零售金融业务、批发金融业务、其他业务",
+        "business_scope": "吸收公众存款；发放短期、中期和长期贷款；办理结算；办理票据贴现；发行金融债券；代理发行、代理兑付、承销政府债券；买卖政府债券；同业拆借；提供信用证服务及担保；代理收付款项及代理保险业务；提供保管箱服务。外汇存款；外汇贷款；外汇汇款；外汇兑换；国际结算；结汇、售汇；同业外汇拆借；外汇票据的承兑和贴现；外汇借款；外汇担保；发行和代理发行股票以外的外币有价证券；买卖和代理买卖股票以外的外币有价证券；自营和代客外汇买卖；资信调查、咨询、见证业务；离岸金融业务。经人民银行批准的其他业务。"
+      },
+      "market_data": {
+        "price": 39.76,
+        "change": -0.11,
+        "change_pct": -0.28,
+        "pe": 6.68,
+        "pb": 0.92,
+        "pe_percentile": 0.2188782489740082,
+        "pb_percentile": 0.12175102599179206,
+        "pe_range": {
+          "min": 4.74,
+          "max": 14.39
+        },
+        "pb_range": {
+          "min": 0.77,
+          "max": 2.25
+        },
+        "dividend_yield": null,
+        "market_cap": 1002741000000,
+        "float_market_cap": 820207000000,
+        "volume": 222683,
+        "amount": 886440952,
+        "turnover": 0.0026465200479793296,
+        "high": 40.03,
+        "low": 39.69,
+        "open": 39.87,
+        "prev_close": 39.87
+      },
+      "financial_data": {
+        "report_date": "2025",
+        "revenue": 337273000000,
+        "revenue_yoy": 0.00045087668819206807,
+        "net_profit": 150181000000,
+        "attributable_net_profit": 150181000000,
+        "cash_dividend_total": null,
+        "dividend_per_10_shares": null,
+        "net_profit_yoy": 0.01206272617611571,
+        "eps": 5.7,
+        "bvps": 43.434496,
+        "roe": 0.1344,
+        "gross_margin": null,
+        "net_margin": null,
+        "debt_ratio": 0.902303,
+        "total_assets": 13070000000000,
+        "total_assets_yoy": 0.0757201646090535,
+        "customer_loans": 7260000000000,
+        "customer_loans_yoy": 0.05370101596516692,
+        "customer_deposits": 9840000000000,
+        "customer_deposits_yoy": 0.08131868131868135,
+        "net_interest_margin": 0.0187,
+        "npl_ratio": 0.009399999999999999,
+        "provision_coverage": 3.9179000000000004,
+        "core_tier1_ratio": 0.1748,
+        "capital_adequacy_ratio": 0.1905
+      },
+      "events": [
+        {
+          "id": "600036-financial-update",
+          "date": "2026-04-22",
+          "type": "financial_update",
+          "title": "最新财务快照已更新",
+          "impact_level": "medium",
+          "impact_direction": "neutral",
+          "requires_refresh": true,
+          "source": "generic_financial_snapshot"
+        },
+        {
+          "id": "600036-annual-2025",
+          "date": "2025-12-31",
+          "type": "annual_results",
+          "title": "2025 年年报已发布",
+          "impact_level": "high",
+          "impact_direction": "neutral",
+          "requires_refresh": true,
+          "source": "official_annual_report"
+        }
+      ],
+      "fetch_meta": {
+        "fetched_at": "2026-04-22T11:38:47.043933",
+        "success": true,
+        "errors": [],
+        "source": "official_report+tencent_quote",
+        "sources": [
+          {
+            "type": "official_annual_report",
+            "url": "https://s3gw.cmbimg.com/lb5001-cmbweb-prd-1255000097/cmbir/20260409/4e4e3c3e-c293-49bf-8cb6-f9db3813ef25.pdf",
+            "reporting_period": "2025"
+          },
+          {
+            "type": "market_quote",
+            "provider": "tencent_quote"
+          }
+        ],
+        "warnings": [
+          "主行情源存在失败记录，但 fallback 已补齐：实时行情获取失败",
+          "主资料源存在失败记录，但 fallback 已补齐：基本信息获取失败"
+        ]
+      },
+      "raw": {
+        "code": "600036",
+        "timestamp": "2026-04-22T11:38:47.043933",
+        "success": true,
+        "errors": [
+          "实时行情获取失败",
+          "基本信息获取失败"
+        ],
+        "annual": {
+          "code": "600036",
+          "name": "1999-12-31",
+          "revenue": 7264000000,
+          "revenue_yoy": false,
+          "net_profit": 482000000,
+          "net_profit_yoy": false,
+          "eps": 0.12
+        },
+        "financial": {
+          "code": "600036",
+          "roe": 3.4,
+          "gross_margin": null,
+          "net_margin": null,
+          "debt_ratio": 90.2303
+        },
+        "official_report": {
+          "company": {
+            "symbol": "600036",
+            "name": "招商银行",
+            "industry": "银行",
+            "bank_type": "股份行"
+          },
+          "reporting_period": "2025",
+          "pdf_url": "https://s3gw.cmbimg.com/lb5001-cmbweb-prd-1255000097/cmbir/20260409/4e4e3c3e-c293-49bf-8cb6-f9db3813ef25.pdf",
+          "source_url": "https://www.cmbchina.com/cmbir/",
+          "total_assets_million": 13070000,
+          "customer_loans_million": 7260000,
+          "customer_deposits_million": 9840000,
+          "net_profit_million": 150181,
+          "attributable_net_profit_million": 150181,
+          "roe_percent": 13.44,
+          "net_interest_margin_percent": 1.87,
+          "npl_ratio_percent": 0.94,
+          "provision_coverage_percent": 391.79,
+          "core_tier1_ratio_percent": 17.48,
+          "capital_adequacy_ratio_percent": 19.05,
+          "dividend_per_10_shares": null,
+          "cash_dividend_total_million": null,
+          "revenue_million": 337273,
+          "revenue_yoy": 0.00045087668819206807,
+          "eps": 5.7,
+          "bvps": 43.434496,
+          "npl_amount_million": 68206,
+          "yoy": {
+            "total_assets": 0.0757201646090535,
+            "customer_loans": 0.05370101596516692,
+            "customer_deposits": 0.08131868131868135,
+            "net_profit": 0.01206272617611571
+          },
+          "previous": {
+            "total_assets_million": 12150000,
+            "customer_loans_million": 6890000,
+            "customer_deposits_million": 9100000,
+            "net_profit_million": 148391
+          }
+        },
+        "market_quote": {
+          "symbol": "600036",
+          "name": "招商银行",
+          "industry": null,
+          "price": 39.76,
+          "pe_dynamic": 6.68,
+          "pb": 0.92,
+          "market_cap": 1002741000000,
+          "float_market_cap": 820207000000,
+          "change": -0.11,
+          "change_pct": -0.28,
+          "turnover": 0.0026465200479793296,
+          "valuation_history": {
+            "pe": {
+              "current": 6.68,
+              "percentile": 0.2188782489740082,
+              "min": 4.74,
+              "max": 14.39,
+              "latest_date": "2026-04-21"
+            },
+            "pb": {
+              "current": 0.92,
+              "percentile": 0.12175102599179206,
+              "min": 0.77,
+              "max": 2.25,
+              "latest_date": "2026-04-21"
+            }
+          },
+          "high": 40.03,
+          "low": 39.69,
+          "open": 39.87,
+          "prev_close": 39.87,
+          "volume": 222683,
+          "amount": 886440952,
+          "listing_date": null,
+          "source": "tencent_quote"
+        },
+        "business_profile": {
+          "main_business": "向客户提供各种批发及零售银行产品和服务，亦自营及代客进行资金业务。",
+          "product_type": "零售金融业务、批发金融业务、其他业务",
+          "product_name": "零售金融业务、批发金融业务、其他业务",
+          "business_scope": "吸收公众存款；发放短期、中期和长期贷款；办理结算；办理票据贴现；发行金融债券；代理发行、代理兑付、承销政府债券；买卖政府债券；同业拆借；提供信用证服务及担保；代理收付款项及代理保险业务；提供保管箱服务。外汇存款；外汇贷款；外汇汇款；外汇兑换；国际结算；结汇、售汇；同业外汇拆借；外汇票据的承兑和贴现；外汇借款；外汇担保；发行和代理发行股票以外的外币有价证券；买卖和代理买卖股票以外的外币有价证券；自营和代客外汇买卖；资信调查、咨询、见证业务；离岸金融业务。经人民银行批准的其他业务。"
+        },
+        "company_survey": {
+          "industry": "银行",
+          "industry_csrc": "金融业-货币金融服务",
+          "company_profile": "招商银行股份有限公司于1987年在深圳创建,是中国境内第一家完全由企业法人持股的股份制商业银行,成立38年来逐步发展成为沪港两地上市,拥有商业银行、金融租赁、基金管理、人寿保险、境外投行、消费金融、理财子公司等金融牌照的银行集团。2025年,招商银行在英国《银行家》杂志发布的“全球银行1000强”榜单中,按照一级资本排名升至第8位;在BrandFinance发布的“全球银行品牌价值500强”榜单中位列第10位;连续14年进入《财富》世界500强榜单;明晟ESG评级为AAA级,处于全球同业领先水平;在《亚洲银行家》年度评选中,荣获中国最佳零售银行、中国最佳财富管理银行等12个奖项。成立以来,招商银行始终坚持服务立行、创新驱动、科技兴行、人才强行,以自身转型发展助力社会经济高质量发展,全力服务居民和企业客户财富增长、资产安全、资金融通。2025年,招商银行深入推进价值银行战略,持续打造“严格管理、守正创新”双轮驱动的高质量发展新模式,锻造硬实力,修炼软实力,加快推进“国际化、综合化、差异化、数智化”转型,保持了“质量、效益、规模、结构”协调发展,市场竞争力进一步增强。招商银行坚持错位竞争、差异化发展,深入构建“以零售为主体、四大板块均衡协同发展”的业务格局。投行与金融市场竞争力不断增强,并购贷款、债券承销、票据、对客交易、投资交易等细分业务位居市场前列。财富管理与资产管理能力不断提升,“招商银行TREE资产配置”服务客户超千万户,均位居市场前列。加快推进国际化综合化发展,完善跨境金融服务体系,持续提升机构、业务、人才、管理国际化水平,更好满足中资企业“走出去”和居民财富全球配置对金融服务的需求;招银理财、招商基金、招银金融租赁、招联消费金融等子公司均跻身行业头部,发挥多牌照优势,为客户提供综合化、一体化、全周期服务。坚持守正创新、深化科技兴行,秉持“AIFirst”理念,深入探索“AI+金融”,以科技创新驱动产品、服务、业务、模式、管理全方位创新,加快从“线上招行”迈向“数智招行”。面向未来,招商银行将坚持与国家发展同向而行,与时代脉搏同频共振,坚定不移打造价值银行,努力为客户、员工、股东、合作伙伴和社会创造更大价值,在服务实体经济和民生福祉中展现更大作为,为中国式现代化和金融强国建设贡献更大力量。",
+          "business_scope": "吸收公众存款;发放短期、中期和长期贷款;办理结算;办理票据贴现;发行金融债券;代理发行、代理兑付、承销政府债券;买卖政府债券;同业拆借;提供信用证服务及担保;代理收付款项及代理保险业务;提供保管箱服务。外汇存款;外汇贷款;外汇汇款;外币兑换;国际结算;结汇、售汇;同业外汇拆借;外汇票据的承兑和贴现;外汇借款;外汇担保;买卖和代理买卖股票以外的外币有价证券;发行和代理发行股票以外的外币有价证券;自营和代客外汇买卖;资信调查、咨询、见证业务;离岸金融业务。经中国银监会批准的其他业务。",
+          "listing_date": "2002-04-09 00:00:00"
+        },
+        "events": [
+          {
+            "id": "600036-financial-update",
+            "date": "2026-04-22",
+            "type": "financial_update",
+            "title": "最新财务快照已更新",
+            "impact_level": "medium",
+            "impact_direction": "neutral",
+            "requires_refresh": true,
+            "source": "generic_financial_snapshot"
+          },
+          {
+            "id": "600036-annual-2025",
+            "date": "2025-12-31",
+            "type": "annual_results",
+            "title": "2025 年年报已发布",
+            "impact_level": "high",
+            "impact_direction": "neutral",
+            "requires_refresh": true,
+            "source": "official_annual_report"
+          }
+        ]
+      },
+      "validation": {
+        "analysis_type": "bank",
+        "is_valid": true,
+        "warnings": [
+          {
+            "type": "source_status",
+            "severity": "warning",
+            "field": "market_data",
+            "message": "主行情源存在失败记录，但 fallback 已补齐：实时行情获取失败"
+          },
+          {
+            "type": "source_status",
+            "severity": "warning",
+            "field": "company",
+            "message": "主资料源存在失败记录，但 fallback 已补齐：基本信息获取失败"
+          }
+        ],
+        "blockingIssues": [],
+        "notApplicableFields": [
+          "gross_margin",
+          "net_margin"
+        ],
+        "summary": {
+          "warningCount": 2,
+          "blockingCount": 0
+        }
+      }
+    },
+    "score": {
+      "total": 67.6,
+      "grade": "B+",
+      "dimensions": {
+        "moat": 16.4,
+        "growth": 12.6,
+        "profit": 15.4,
+        "valuation": 18.2,
+        "catalyst": 7.2,
+        "risk": -2.2
+      },
+      "details": {
+        "moat": [
+          {
+            "name": "通用：行业地位与属性",
+            "score": 4,
+            "max": 5,
+            "rationale": "已识别所属行业为 银行。"
+          },
+          {
+            "name": "通用：规模基础",
+            "score": 4,
+            "max": 5,
+            "rationale": "总市值 10027.41亿，用于衡量规模与资源配置能力。"
+          },
+          {
+            "name": "通用：上市与经营资历",
+            "score": 3,
+            "max": 5,
+            "rationale": "上市日期 2002-04-09，具备较长二级市场经营样本。"
+          },
+          {
+            "name": "通用：业务标签清晰度",
+            "score": 3,
+            "max": 5,
+            "rationale": "概念标签：金融服务、银行"
+          },
+          {
+            "name": "通用：品牌与客户认知",
+            "score": 3,
+            "max": 5,
+            "rationale": "招商银行 已建立基础品牌识别，但仍缺少竞争格局原始证据。"
+          },
+          {
+            "name": "银行增强：牌照与行业地位",
+            "score": 5,
+            "max": 5,
+            "rationale": "银行牌照稀缺，属于高度监管且进入门槛极高的行业。"
+          },
+          {
+            "name": "银行增强：规模基础",
+            "score": 2,
+            "max": 5,
+            "rationale": "总资产 13.07万亿，大行规模优势明显。"
+          },
+          {
+            "name": "银行增强：存款基础",
+            "score": 2,
+            "max": 5,
+            "rationale": "客户存款 9.84万亿，负债端稳定性较强。"
+          },
+          {
+            "name": "银行增强：客户与渠道壁垒",
+            "score": 3,
+            "max": 5,
+            "rationale": "非国有大行，按一般银行壁垒计分。"
+          },
+          {
+            "name": "银行增强：资本与信用背书",
+            "score": 4,
+            "max": 5,
+            "rationale": "核心一级资本充足率 17.48%，资本安全垫支持长期经营韧性。"
+          }
+        ],
+        "growth": [
+          {
+            "name": "通用：收入与利润增速",
+            "score": 4,
+            "max": 8,
+            "rationale": "营收同比 0.05%，净利润同比 1.21%。"
+          },
+          {
+            "name": "通用：利润趋势",
+            "score": 3,
+            "max": 5,
+            "rationale": "净利润同比 1.21%，反映近期业绩弹性。"
+          },
+          {
+            "name": "通用：成长空间",
+            "score": 3,
+            "max": 4,
+            "rationale": "已识别业务概念：金融服务、银行。"
+          },
+          {
+            "name": "通用：催化基础",
+            "score": 2,
+            "max": 3,
+            "rationale": "当前已生成 2 条结构化事件。"
+          },
+          {
+            "name": "银行增强：历史增速",
+            "score": 5,
+            "max": 8,
+            "rationale": "收入同比 0.05%，净利润同比 1.21%。"
+          },
+          {
+            "name": "银行增强：增长趋势",
+            "score": 4,
+            "max": 6,
+            "rationale": "总资产同比 7.57%、贷款同比 5.37%、存款同比 8.13%。"
+          },
+          {
+            "name": "银行增强：成长空间",
+            "score": 3,
+            "max": 4,
+            "rationale": "成长空间存在，但仍属于成熟金融行业。"
+          },
+          {
+            "name": "银行增强：行业景气",
+            "score": 1,
+            "max": 2,
+            "rationale": "银行板块整体景气度偏平稳，目前主要看息差与资产质量边际变化。"
+          }
+        ],
+        "profit": [
+          {
+            "name": "通用：ROE水平",
+            "score": 4,
+            "max": 5,
+            "rationale": "ROE 为 13.44%，衡量股东回报能力。"
+          },
+          {
+            "name": "通用：毛利率",
+            "score": 2,
+            "max": 5,
+            "rationale": "该行业不以毛利率作为核心分析口径，按通用占位解释处理。"
+          },
+          {
+            "name": "通用：净利率",
+            "score": 2,
+            "max": 5,
+            "rationale": "该行业不以净利率作为核心分析口径，按通用占位解释处理。"
+          },
+          {
+            "name": "通用：资产负债结构",
+            "score": 2,
+            "max": 5,
+            "rationale": "资产负债率 90.23%，用于判断杠杆与财务风险。"
+          },
+          {
+            "name": "银行增强：ROE水平",
+            "score": 5,
+            "max": 5,
+            "rationale": "ROE 为 13.44%，决定银行股长期回报中枢。"
+          },
+          {
+            "name": "银行增强：资产质量",
+            "score": 5,
+            "max": 5,
+            "rationale": "不良率 0.94%，反映资产端稳定性。"
+          },
+          {
+            "name": "银行增强：风险缓冲",
+            "score": 5,
+            "max": 5,
+            "rationale": "拨备覆盖率 391.79%，资本与拨备安全垫较厚。"
+          },
+          {
+            "name": "银行增强：盈利稳定性",
+            "score": 4,
+            "max": 5,
+            "rationale": "净息差 1.87%，净利润同比 1.21%。"
+          }
+        ],
+        "valuation": [
+          {
+            "name": "通用：PE水平",
+            "score": 5,
+            "max": 5,
+            "rationale": "PE 为 6.68，反映当前盈利估值水平。"
+          },
+          {
+            "name": "通用：PB水平",
+            "score": 5,
+            "max": 5,
+            "rationale": "PB 为 0.92，反映当前净资产估值水平。"
+          },
+          {
+            "name": "通用：股息率与回报",
+            "score": 1,
+            "max": 5,
+            "rationale": "分红字段不完整，股东回报信息仍偏弱。"
+          },
+          {
+            "name": "通用：市值与流动性",
+            "score": 4,
+            "max": 5,
+            "rationale": "总市值 10027.41亿，流动性对交易执行较友好。"
+          },
+          {
+            "name": "通用：历史估值位置",
+            "score": 5,
+            "max": 5,
+            "rationale": "PE 分位 21.89%、PB 分位 12.18%。"
+          },
+          {
+            "name": "银行增强：PB水平",
+            "score": 3,
+            "max": 5,
+            "rationale": "PB 为 0.92，当前仍属于银行股可接受区间。"
+          },
+          {
+            "name": "银行增强：PE水平",
+            "score": 4,
+            "max": 5,
+            "rationale": "PE 为 6.68，当前口径来自腾讯行情候选字段。"
+          },
+          {
+            "name": "银行增强：股息率吸引力",
+            "score": 1,
+            "max": 5,
+            "rationale": "股息率约 0.00%，按官方年报分红与现价推算。"
+          },
+          {
+            "name": "银行增强：市值与流动性",
+            "score": 4,
+            "max": 5,
+            "rationale": "总市值 1万亿，流动性足以支撑底仓配置。"
+          },
+          {
+            "name": "银行增强：历史估值位置",
+            "score": 5,
+            "max": 5,
+            "rationale": "近十年 PE 分位 21.89%、PB 分位 12.18%，可用于判断当前估值所处历史位置。"
+          }
+        ],
+        "catalyst": [
+          {
+            "name": "通用：最新财务更新",
+            "score": 4,
+            "max": 4,
+            "rationale": "已抓到 2025 财务快照。"
+          },
+          {
+            "name": "通用：结构化事件",
+            "score": 3,
+            "max": 3,
+            "rationale": "当前已生成 2 条结构化事件。"
+          },
+          {
+            "name": "通用：市场关注度",
+            "score": 2,
+            "max": 3,
+            "rationale": "换手率 0.26%，可辅助判断关注度。"
+          },
+          {
+            "name": "银行增强：最新财报催化",
+            "score": 4,
+            "max": 4,
+            "rationale": "已接通 2025 年官方年报，基础面验证已刷新。"
+          },
+          {
+            "name": "银行增强：分红催化",
+            "score": 1,
+            "max": 3,
+            "rationale": "分红方案未完成结构化。"
+          },
+          {
+            "name": "银行增强：风格与估值修复",
+            "score": 1,
+            "max": 3,
+            "rationale": "当前更偏基础持有逻辑，缺少明确风格催化。"
+          }
+        ],
+        "risk": [
+          {
+            "name": "通用：财务杠杆",
+            "score": -2,
+            "max": 5,
+            "rationale": "资产负债率 90.23%，用于衡量资产负债结构风险。"
+          },
+          {
+            "name": "通用：数据完整性",
+            "score": -0.5,
+            "max": 5,
+            "rationale": "当前存在数据告警：主行情源存在失败记录，但 fallback 已补齐：实时行情获取失败、主资料源存在失败记录，但 fallback 已补齐：基本信息获取失败"
+          },
+          {
+            "name": "通用：估值波动",
+            "score": -1,
+            "max": 5,
+            "rationale": "PE 分位 21.89%、PB 分位 12.18%，高位估值需要留意回撤。"
+          },
+          {
+            "name": "银行增强：息差压力",
+            "score": 0,
+            "max": 5,
+            "rationale": "净息差 1.87%，银行盈利弹性仍受息差收窄影响。"
+          },
+          {
+            "name": "银行增强：数据完整性",
+            "score": -0.5,
+            "max": 5,
+            "rationale": "告警：主行情源存在失败记录，但 fallback 已补齐：实时行情获取失败、主资料源存在失败记录，但 fallback 已补齐：基本信息获取失败"
+          },
+          {
+            "name": "银行增强：宏观与资产质量",
+            "score": -1,
+            "max": 5,
+            "rationale": "不良率 0.94%，当前整体可控，但银行仍受宏观信用周期影响。"
+          }
+        ]
+      },
+      "data_gaps": []
+    },
+    "peerComparison": [
+      {
+        "symbol": "600036",
+        "name": "招商银行",
+        "bank_type": "股份行",
+        "price": 39.76,
+        "pe": 6.68,
+        "pb": 0.92,
+        "dividend_yield": null,
+        "market_cap": 1002741000000,
+        "turnover": 0.0026465200479793296
+      },
+      {
+        "symbol": "601398",
+        "name": "工商银行",
+        "bank_type": "",
+        "price": 7.53,
+        "pe": 7.28,
+        "pb": 0.7,
+        "dividend_yield": null,
+        "market_cap": 2683739000000,
+        "turnover": 0.0009232629325498108
+      },
+      {
+        "symbol": "601939",
+        "name": "建设银行",
+        "bank_type": "",
+        "price": 9.73,
+        "pe": 7.51,
+        "pb": 0.73,
+        "dividend_yield": null,
+        "market_cap": 2545372000000,
+        "turnover": 0.010968974328850986
+      },
+      {
+        "symbol": "601288",
+        "name": "农业银行",
+        "bank_type": "国有大行",
+        "price": 7.07,
+        "pe": 8.5,
+        "pb": 0.89,
+        "dividend_yield": 0.03528995756718529,
+        "market_cap": 2474380000000,
+        "turnover": 0.0007969389464597601
+      }
+    ]
+  },
+  "signal": {
+    "signal_status": "fresh",
+    "signal_age_days": 0,
+    "stale_reason": "",
+    "review_priority": "low",
+    "constraint_hit": "",
+    "data_gaps": []
+  },
+  "checklist_auto": {
+    "status": "pass",
+    "score": 67.6,
+    "reasons": [
+      "核心外部数据已接通"
+    ]
+  },
+  "decision_summary": {
+    "review_status": "needs_review",
+    "action": "watch",
+    "reason": "自动分析初始化：当前总分 49，评级 C；仍有待补字段：BVPS、同业估值对比",
+    "review_deadline": "2026-05-05",
+    "last_reviewed_at": ""
+  }
+}

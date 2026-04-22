@@ -1,0 +1,29 @@
+{
+  "2026-04-16": [
+    {
+      "filename": "snapshot_102626.json",
+      "timestamp": "102626",
+      "note": "合并v2.0/v2.2后首次备份",
+      "count": 68,
+      "updated_at": "2026-04-16T10:26:26.484012"
+    }
+  ],
+  "2026-04-17": [
+    {
+      "filename": "v22_results.json",
+      "timestamp": "020200",
+      "note": "每日快照",
+      "count": 68,
+      "updated_at": "2026-04-17T02:02:00.000000"
+    }
+  ],
+  "2026-04-21": [
+    {
+      "filename": "v22_results.json",
+      "timestamp": "132600",
+      "note": "每日快照",
+      "count": 68,
+      "updated_at": "2026-04-21T13:26:00.000000"
+    }
+  ]
+}
